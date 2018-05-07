@@ -527,9 +527,9 @@ tel"  >
                             <br /><br />
 
 <?php
-if(isset($_POST['nome'])){
-required_once('obrigado.php');
-
+if(isset($_POST['nome'])) {
+    required_once('obrigado.php');
+}
 ?>
 			</div>
 		</div>
