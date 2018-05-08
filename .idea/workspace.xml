@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fe82b9-0d1c-4641-b0d1-9d8cf8237819" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/equipamentos-e-sensores.html" afterPath="$PROJECT_DIR$/equipamentos-e-sensores.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/servicos.html" afterPath="$PROJECT_DIR$/servicos.html" />
-      <change beforePath="$PROJECT_DIR$/servicos/alarme-para-empresa.html" afterPath="$PROJECT_DIR$/servicos/alarme-para-empresa.html" />
-      <change beforePath="$PROJECT_DIR$/servicos/alarme-residencial.html" afterPath="$PROJECT_DIR$/servicos/alarme-residencial.html" />
-      <change beforePath="$PROJECT_DIR$/sobre-nos.html" afterPath="$PROJECT_DIR$/sobre-nos.html" />
+      <change beforePath="$PROJECT_DIR$/obrigado.php" afterPath="$PROJECT_DIR$/obrigado.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,21 +18,23 @@
       <file leaf-file-name="obrigado.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/obrigado.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <marker date="1525109442546" expanded="true" signature="293:388" ph="INSERT INTO clientes... " />
+                <marker date="1525801005870" expanded="true" signature="340:452" ph="INSERT INTO clientes... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="571" column="38" lean-forward="true" selection-start-line="571" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="184">
+              <caret line="595" column="76" lean-forward="false" selection-start-line="595" selection-start-column="72" selection-end-line="595" selection-end-column="76" />
+              <folding>
+                <marker date="1525801126394" expanded="true" signature="34479:34591" ph="INSERT INTO adt_leads... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +42,7 @@
       <file leaf-file-name="sobre-nos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sobre-nos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="4471">
               <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -118,7 +117,7 @@
       <file leaf-file-name="servicos.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servicos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="4981">
               <caret line="293" column="21" lean-forward="false" selection-start-line="293" selection-start-column="21" selection-end-line="293" selection-end-column="21" />
               <folding />
             </state>
@@ -128,8 +127,8 @@
       <file leaf-file-name="alarme-para-empresa.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servicos/alarme-para-empresa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="258" column="0" lean-forward="true" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+            <state relative-caret-position="4386">
+              <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -140,7 +139,7 @@
       <file leaf-file-name="alarme-residencial.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/servicos/alarme-residencial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="15045">
               <caret line="885" column="49" lean-forward="false" selection-start-line="885" selection-start-column="0" selection-end-line="886" selection-end-column="0" />
               <folding>
                 <element signature="e#9081#9087#0" expanded="true" />
@@ -401,21 +400,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="equipamentos-e-sensores.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="equipamentos-e-sensores.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/equipamentos-e-sensores.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contato.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contato.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4029">
-              <caret line="237" column="169" lean-forward="false" selection-start-line="237" selection-start-column="169" selection-end-line="237" selection-end-column="169" />
               <folding />
             </state>
           </provider>
@@ -786,6 +775,8 @@
       <find>&lt;input class=&quot;creative_fileupload_submit&quot; type=&quot;file&quot; name=&quot;files[]&quot; mult</find>
       <find>Mensagem</find>
       <find>(11) 4871-0389</find>
+      <find>form</find>
+      <find>error</find>
     </findStrings>
     <replaceStrings>
       <replace>(11) 4841-2677</replace>
@@ -797,16 +788,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/obrigado.php" />
         <option value="$PROJECT_DIR$/promocoes.html" />
         <option value="$PROJECT_DIR$/contato.html" />
         <option value="$PROJECT_DIR$/contato/trabalhe-conosco.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sobre-nos.html" />
         <option value="$PROJECT_DIR$/servicos.html" />
         <option value="$PROJECT_DIR$/servicos/alarme-para-empresa.html" />
         <option value="$PROJECT_DIR$/servicos/alarme-residencial.html" />
         <option value="$PROJECT_DIR$/equipamentos-e-sensores.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/obrigado.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -820,7 +812,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1364" />
@@ -841,8 +833,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -864,6 +856,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FFX Sistemas\Desktop\dev\dev\pronorth-services\vocesegurosempre.pronorth.com.br" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -895,18 +892,19 @@
       <workItem from="1525272147581" duration="2559000" />
       <workItem from="1525363067575" duration="630000" />
       <workItem from="1525450536692" duration="595000" />
-      <workItem from="1525715365896" duration="981000" />
+      <workItem from="1525715365896" duration="4455000" />
+      <workItem from="1525799980021" duration="2971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17583000" />
+    <option name="totallyTimeSpent" value="24028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -935,7 +933,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24158126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -957,14 +955,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12087">
-          <caret line="711" column="0" lean-forward="false" selection-start-line="711" selection-start-column="0" selection-end-line="711" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sobre-nos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4420">
@@ -1043,7 +1033,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1525109442546" expanded="true" signature="293:388" ph="INSERT INTO clientes... " />
+            <marker date="1525801005870" expanded="true" signature="340:452" ph="INSERT INTO clientes... " />
           </folding>
         </state>
       </provider>
@@ -1956,7 +1946,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1525109442546" expanded="true" signature="293:388" ph="INSERT INTO clientes... " />
+            <marker date="1525801005870" expanded="true" signature="340:452" ph="INSERT INTO clientes... " />
           </folding>
         </state>
       </provider>
@@ -2418,7 +2408,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1525109442546" expanded="true" signature="293:388" ph="INSERT INTO clientes... " />
+            <marker date="1525801005870" expanded="true" signature="340:452" ph="INSERT INTO clientes... " />
           </folding>
         </state>
       </provider>
@@ -3638,27 +3628,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obrigado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1525109442546" expanded="true" signature="293:388" ph="INSERT INTO clientes... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="571" column="38" lean-forward="true" selection-start-line="571" selection-start-column="0" selection-end-line="572" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sobre-nos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="4471">
           <caret line="263" column="0" lean-forward="false" selection-start-line="263" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -3731,7 +3703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servicos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="4981">
           <caret line="293" column="21" lean-forward="false" selection-start-line="293" selection-start-column="21" selection-end-line="293" selection-end-column="21" />
           <folding />
         </state>
@@ -3739,8 +3711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servicos/alarme-para-empresa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="258" column="0" lean-forward="true" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
+        <state relative-caret-position="4386">
+          <caret line="258" column="0" lean-forward="false" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -3749,7 +3721,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/servicos/alarme-residencial.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="15045">
           <caret line="885" column="49" lean-forward="false" selection-start-line="885" selection-start-column="0" selection-end-line="886" selection-end-column="0" />
           <folding>
             <element signature="e#9081#9087#0" expanded="true" />
@@ -4014,6 +3986,34 @@
         <state relative-caret-position="357">
           <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="521" column="28" lean-forward="false" selection-start-line="521" selection-start-column="28" selection-end-line="521" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obrigado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1525801005870" expanded="true" signature="340:452" ph="INSERT INTO clientes... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="595" column="76" lean-forward="false" selection-start-line="595" selection-start-column="72" selection-end-line="595" selection-end-column="76" />
+          <folding>
+            <marker date="1525801126394" expanded="true" signature="34479:34591" ph="INSERT INTO adt_leads... " />
+          </folding>
         </state>
       </provider>
     </entry>
