@@ -246,7 +246,7 @@ tel"  >
 		</div>
 	</div></div></section><header id="sp-header-wrapper"
 								  class=" "><div class="container"><div class="row-fluid" id="header">
-	<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="index.html"><img alt="" class="image-logo" src="http://alarmemonitorado.com/images/logo.jpg" /></a></div></div>
+	<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="index.html"><img alt="" class="image-logo" src="logo.jpg" /></a></div></div>
 
 	<div id="sp-menu" class="span9">
 
@@ -537,6 +537,22 @@ tel"  >
                                             ':mensagem' => $mensagem,
                                             ':date' => date('Y-m-d H:i:s')
                                         ));
+                                        $ch = curl_init();
+
+                                        curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+                                        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                                        curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"text\":\"Nome {$nome} - Telefone: {$telefone} - Email:{$email} - Mensagem: {$mensagem} - D\"}");
+                                        curl_setopt($ch, CURLOPT_POST, 1);
+
+                                        $headers = array();
+                                        $headers[] = "Content-Type: application/x-www-form-urlencoded";
+                                        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+                                        $result = curl_exec($ch);
+                                        if (curl_errno($ch)) {
+                                            echo 'Error:' . curl_error($ch);
+                                        }
+                                        curl_close ($ch);
 
                                         echo "<center>Contato Enviado com sucesso</center>";
                                     } catch(PDOException $e) {
@@ -561,7 +577,7 @@ tel"  >
 
 
 			<div class="customtitle1"  >
-				<iframe width="550" height="350" src="https://www.youtube.com/embed/PPQRVsOSeOE" frameborder="0" allowfullscreen></iframe></div>
+				<iframe width="550" height="350" src="https://www.youtube.com/embed/JhMnZiaW26s" frameborder="0" allowfullscreen></iframe></div>
 		</div>
 	</div>
 		<div class="gap"></div>
@@ -593,7 +609,7 @@ desbres"  >
 
 		<div class="custom"  >
 			<div style="margin-top: 20px; line-height: 20px;">
-				<p><strong><img src="http://alarmemonitorado.com/images/logo.jpg" alt="" width="459" height="106" style="margin-right: 30px; float: left;" /></strong>Tel. (11) 4841-2677<br />E-mail: <a href="mailto:contato@vocesegurosempre.com.br">contato@vocesegurosempre.com.br</a></p>
+				<p><strong><img src="logo.jpg" alt="" width="459" height="106" style="margin-right: 30px; float: left;" /></strong>Tel. (11) 4841-2677<br />E-mail: <a href="mailto:contato@vocesegurosempre.com.br">contato@vocesegurosempre.com.br</a></p>
 			</div></div>
 		<span class="copyright">Você seguro sempre - Todos Direitos Reservados ©  2018 .</span></div>
 
