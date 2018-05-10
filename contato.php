@@ -223,8 +223,48 @@ tel"  >
 			 			<input type="hidden" value="237" class="creativecontactform_module_id" name="creativecontactform_module_id" />
 			 			<input type="hidden" value="18" class="creativecontactform_form_id" name="creativecontactform_form_id" />
 		 			</div>
-                </form>
-	 		</div>
+	 			</form>
+
+                    <?php
+
+                    use PHPMailer\PHPMailer\PHPMailer;
+                    use PHPMailer\PHPMailer\Exception;
+
+                        //Load Composer's autoload
+                       require 'vendor/autoload.php';
+
+
+                        $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+                        try {
+
+                            $mail->SMTPDebug = 2;
+                            $mail->isSMTP();
+                            $mail->Host = 'smtp.umbler.com';
+                            $mail->SMTPAuth = true;
+                            $mail->Username = 'andre@ffxsistemas.com';
+                            $mail->Password = 'a10203040';
+                            $mail->SMTPSecure = 'tls';
+                            $mail->Port = 587;
+
+                            $mail->setFrom('contato@vocesegurosempre.com.br', 'Mailer');
+                            $mail->addAddress('andre@ffxsistemas.com', 'Andre User');
+                            $mail->addAddress('andre@ffxsistemas.com');
+
+
+                            $mail->isHTML(true);
+                            $mail->Subject = 'Here is the subject';
+                            $mail->Body = 'This is the HTML message body <b>in bold!</b>';
+                            $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+                            $mail->send();
+                            echo 'Mensagem enviada com sucesso!';
+                        } catch (Exception $e) {
+                            echo 'Menssagem não enviada com sucesso. Mailer Error: ', $mail->ErrorInfo;
+                        }
+                    }
+                    ?>
+
+				</div>
 	 		</div>
 
 	 		
@@ -282,4 +322,5 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     </body>
 
 <!-- Mirrored from alarmemonitorado.com/contato.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Apr 2018 16:29:04 GMT -->
+
 </html>
