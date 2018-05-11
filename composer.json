@@ -1,0 +1,11 @@
+{
+    "name": "pronorth-services/composer-php",
+    "description": "Composer",
+    "authors": [
+        {
+            "name": "Andre Vollmer",
+            "email": "andrevollmer.11d@gmail.com"
+        }
+    ],
+    "require": {}
+}
