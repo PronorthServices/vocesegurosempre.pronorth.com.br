@@ -230,41 +230,48 @@ tel"  >
                     use PHPMailer\PHPMailer\PHPMailer;
                     use PHPMailer\PHPMailer\Exception;
 
-                    //Load Composer's autoload
+                    $nome = ["Nome"];
+                    $telefone = ["Telefone"];
+                    $email = ["Email"];
+                    $mensagem = ["Mensagem"];
+
                     require 'vendor/autoload.php';
 
+                    $mail = new PHPMailer(true);
 
-                    $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
-                    try {
+                    $mail->SMTPDebug = 2;
+                    $mail->isSMTP();
+                    $mail->Host = 'smtp.umbler.com';
+                    $mail->SMTPAuth = true;
+                    $mail->Username = 'andre@ffxsistemas.com';
+                    $mail->Password = 'a10203040';
+                    $mail->SMTPSecure = 'tls';
+                    $mail->Port = 587;
+                    $mail->setFrom('andre@ffxsistemas.com', 'Mailer');
+                    $mail->addAddress('andre@ffxsistemas.com', 'Andre User');
+                    $mail->addAddress('andre@ffxsistemas.com');
+                    $mail->AddCC('andrevollmer.11d@gmail.com', 'Eu');
 
-                        $mail->SMTPDebug = 2;
-                        $mail->isSMTP();
-                        $mail->Host = 'smtp.umbler.com';
-                        $mail->SMTPAuth = true;
-                        $mail->Username = 'andre@ffxsistemas.com';
-                        $mail->Password = 'a10203040';
-                        $mail->SMTPSecure = 'tls';
-                        $mail->Port = 587;
-
-                        $mail->setFrom('andre@ffxsistemas.com', 'Mailer');
-                        $mail->addAddress('andre@ffxsistemas.com', 'Andre User');
-                        $mail->addAddress('andre@ffxsistemas.com');
+                    $mail->isHTML(true);
+                    $mail->Subject = 'Contato atraves do site';
+                    $mail->Body = "$mensagem";
+                    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+                    $enviado = $mail->send();
 
 
-                        $mail->isHTML(true);
-                        $mail->Subject = 'Contato atraves do site';
-                        $mail->Body = 'Entraram em contato <b>in bold!</b>';
-                        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-                        $mail->send();
+                    if ($enviado) {
                         echo 'Mensagem enviada com sucesso!';
-                    } catch (Exception $e) {
+                    } else  {
                         echo 'Mensagem não enviada com sucesso. Mailer Error: ', $mail->ErrorInfo;
                     }
+
 
                     ?>
 
 				</div>
+
+                </div>
+
 	 		</div>
 
 	 		
@@ -322,5 +329,9 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     </body>
 
 <!-- Mirrored from alarmemonitorado.com/contato.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Apr 2018 16:29:04 GMT -->
+<<<<<<< HEAD
 
 </html>
+=======
+</html>
+>>>>>>> d692c9760c34db88c4f041742979eb84f4eaefbb

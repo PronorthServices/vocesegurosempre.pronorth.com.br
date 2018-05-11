@@ -1,5 +1,17 @@
 {
+<<<<<<< HEAD
     "require": {
         "phpmailer/phpmailer": "^6.0"
     }
+=======
+    "name": "pronorth-services/composer-php",
+    "description": "Composer",
+    "authors": [
+        {
+            "name": "Andre Vollmer",
+            "email": "andrevollmer.11d@gmail.com"
+        }
+    ],
+    "require": {}
+>>>>>>> d692c9760c34db88c4f041742979eb84f4eaefbb
 }
