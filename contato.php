@@ -225,43 +225,34 @@ tel"  >
 		 			</div>
 	 			</form>
 
-                    use PHPMailer\PHPMailer\PHPMailer;
-                    use PHPMailer\PHPMailer\Exception;
+                    require 'vendor/PHPMailerAutoload.php';
 
-                    require 'path/to/PHPMailer/src/Exception.php';
-                    require 'path/to/PHPMailer/src/PHPMailer.php';
-                    require 'path/to/PHPMailer/src/SMTP.php';
+                    $mailer = new PHPMailer();
 
-                    $mail = new PHPMailer(true);
-                    try {
-                    //Server settings
-                    $mail->SMTPDebug = 2;
-                    $mail->isSMTP();
-                    $mail->Host = 'smtp1.umble.com';
-                    $mail->SMTPAuth = true;
-                    $mail->Username = 'andre@ffxsistemas.com';
-                    $mail->Password = 'a10203040';
-                    $mail->SMTPSecure = 'ssl';
-                    $mail->Port = 465;
+                    $mailer ->isSMTP();
+                    $mailer ->isHTML(true);
+                    $mailer->CharSet = "UTF-8";
 
-                    //Recipients
-                    $mail->setFrom('contato@vocesegurosempre.com.br', 'Mailer');
-                    $mail->addAddress('andre@ffxsistemas.com', 'Joe User');
-                    $mail->addAddress('andre@ffxsistemas.com');
-                    $mail->addReplyTo('andrevollmer.11d@gmail.com', 'Information');
-                    $mail->addCC('');
-                    $mail->addBCC('');
+                    $mailer->SMTPAuth = true;
+                    $mailer->SMTPSecure = "tls";
+                    $mailer->Host = "smtp.umbler.com";
+                    $mailer->Port = 587;
+                    $mailer->Username = "andre@ffxsistemas.com";
+                    $mailer->Password = "a10203040";
 
-                    //Content
-                    $mail->isHTML(true);
-                    $mail->Subject = 'Here is the subject';
-                    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-                    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+                    $mailer->From = "andre@ffxsistemas.com";
+                    $mailer->FromName = "Andre Vollmer";
 
-                    $mail->send();
-                    echo 'Message has been sent';
-                    } catch (Exception $e) {
-                    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+                    $mailer->Subject = "TESTE DE EMAIL";
+                    $mailer->Body = "body HTML";
+                    $mailer->AltBody = "body texto";
+
+                    $mailer->addAddress("andre@ffxsistemas.com");
+
+                    if($mailer -> send()) {
+                    echo "Enviado";
+                    } else {
+                    echo "Erro: ".$mailer->ErrorInfo;
                     }
 
 
@@ -269,7 +260,7 @@ tel"  >
 
 
 
-	 		</div>
+                </div>
 	 		</div>
 
 	 		
