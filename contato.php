@@ -230,38 +230,38 @@ tel"  >
                     use PHPMailer\PHPMailer\PHPMailer;
                     use PHPMailer\PHPMailer\Exception;
 
-                        //Load Composer's autoload
-                       require 'vendor/autoload.php';
+                    //Load Composer's autoload
+                    require 'vendor/autoload.php';
 
 
-                        $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
-                        try {
+                    $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+                    try {
 
-                            $mail->SMTPDebug = 2;
-                            $mail->isSMTP();
-                            $mail->Host = 'smtp.umbler.com';
-                            $mail->SMTPAuth = true;
-                            $mail->Username = 'andre@ffxsistemas.com';
-                            $mail->Password = 'a10203040';
-                            $mail->SMTPSecure = 'tls';
-                            $mail->Port = 587;
+                        $mail->SMTPDebug = 2;
+                        $mail->isSMTP();
+                        $mail->Host = 'smtp.umbler.com';
+                        $mail->SMTPAuth = true;
+                        $mail->Username = 'andre@ffxsistemas.com';
+                        $mail->Password = 'a10203040';
+                        $mail->SMTPSecure = 'tls';
+                        $mail->Port = 587;
 
-                            $mail->setFrom('contato@vocesegurosempre.com.br', 'Mailer');
-                            $mail->addAddress('andre@ffxsistemas.com', 'Andre User');
-                            $mail->addAddress('andre@ffxsistemas.com');
+                        $mail->setFrom('andre@ffxsistemas.com', 'Mailer');
+                        $mail->addAddress('andre@ffxsistemas.com', 'Andre User');
+                        $mail->addAddress('andre@ffxsistemas.com');
 
 
-                            $mail->isHTML(true);
-                            $mail->Subject = 'Here is the subject';
-                            $mail->Body = 'This is the HTML message body <b>in bold!</b>';
-                            $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+                        $mail->isHTML(true);
+                        $mail->Subject = 'Contato atraves do site';
+                        $mail->Body = 'Entraram em contato <b>in bold!</b>';
+                        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-                            $mail->send();
-                            echo 'Mensagem enviada com sucesso!';
-                        } catch (Exception $e) {
-                            echo 'Menssagem não enviada com sucesso. Mailer Error: ', $mail->ErrorInfo;
-                        }
+                        $mail->send();
+                        echo 'Mensagem enviada com sucesso!';
+                    } catch (Exception $e) {
+                        echo 'Mensagem não enviada com sucesso. Mailer Error: ', $mail->ErrorInfo;
                     }
+
                     ?>
 
 				</div>
