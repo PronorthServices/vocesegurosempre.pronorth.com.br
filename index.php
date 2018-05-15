@@ -213,6 +213,14 @@
 
 	</script>
 
+    <style type="text/css">
+        .brand-logo{
+            width: 500px;
+            height: 80px;
+            /*border: 1px solid red;*/
+        }
+    </style>
+
 
 </head>
 <body  class="article homepage  ltr preset8 menu-home responsive bg hfeed clearfix">
@@ -246,13 +254,13 @@ tel"  >
 		</div>
 	</div></div></section><header id="sp-header-wrapper"
 								  class=" "><div class="container"><div class="row-fluid" id="header">
-	<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="index.html"><img alt="" class="image-logo" src="logo.jpg" /></a></div></div>
+	<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="index.php"><img alt="" class="image-logo" src="logo.jpg" /></a></div></div>
 
 	<div id="sp-menu" class="span9">
 
 
 		<div id="sp-main-menu" class="visible-desktop">
-			<ul class="sp-menu level-0"><li class="menu-item active first"><a href="index.html" class="menu-item active first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="sobre-nos.html" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item parent "><a href="servicos.html" class="menu-item parent " ><span class="menu"><span class="menu-title">Serviços</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="servicos/alarme-residencial.html" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="servicos/alarme-para-empresa.html" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></div></div></div></div></li><li class="menu-item"><a href="equipamentos-e-sensores.html" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent "><a href="contato.html" class="menu-item parent " ><span class="menu"><span class="menu-title">Contato</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="contato/trabalhe-conosco.html" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></div></div></div></div></li><li class="menu-item last promocaoitem"><a href="promocoes.html" class="menu-item last promocaoitem" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>
+			<ul class="sp-menu level-0"><li class="menu-item active first"><a href="index.php" class="menu-item active first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="sobre-nos.php" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item parent "><a href="servicos.php" class="menu-item parent " ><span class="menu"><span class="menu-title">Serviços</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="servicos/alarme-residencial.php" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="servicos/alarme-para-empresa.php" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></div></div></div></div></li><li class="menu-item"><a href="equipamentos-e-sensores." class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent "><a href="contato.php" class="menu-item parent " ><span class="menu"><span class="menu-title">Contato</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="contato/trabalhe-conosco.php" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></div></div></div></div></li><li class="menu-item last promocaoitem"><a href="promocoes.php" class="menu-item last promocaoitem" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>
 		</div>
 	</div>
 </div></div></header><section id="sp-feature-wrapper"
@@ -365,7 +373,7 @@ tel"  >
 							<div class="sprocket-mosaic-item" data-mosaic-content>
 								<div style="display: none;" data-mosaic-order-title="Alarme Monitorado Residencial" data-mosaic-order-date=""></div>		<div class="sprocket-padding">
 								<div class="sprocket-mosaic-image-container">
-									<a href="servicos/alarme-residencial.html">				<img src="http://alarmemonitorado.com/images/banners/imagem003.bmp" alt="" class="sprocket-mosaic-image" />
+									<a href="servicos/alarme-residencial.php">				<img src="http://alarmemonitorado.com/images/banners/imagem003.bmp" alt="" class="sprocket-mosaic-image" />
 										<span class="sprocket-mosaic-hover"></span>
 										<span class="sprocket-mosaic-hovercontent"></span>
 									</a>
@@ -373,14 +381,14 @@ tel"  >
 
 								<div class="sprocket-mosaic-head">
 									<h2 class="sprocket-mosaic-title">
-										<a href="servicos/alarme-residencial.html">						Alarme Monitorado Residencial					</a>				</h2>
+										<a href="servicos/alarme-residencial.php">						Alarme Monitorado Residencial					</a>				</h2>
 
 								</div>
 
 								<div class="sprocket-mosaic-text">
 									Não perca tempo e adquira agora mesmo a melhor performance em segurança para sua residência e família, o melhor equipamento<span class="roksprocket-ellipsis">…</span>			</div>
 
-								<a href="servicos/alarme-residencial.html" class="sprocket-readmore"><span>Read More</span></a>
+								<a href="servicos/alarme-residencial.php" class="sprocket-readmore"><span>Read More</span></a>
 
 							</div>
 							</div>
@@ -389,7 +397,7 @@ tel"  >
 							<div class="sprocket-mosaic-item" data-mosaic-content>
 								<div style="display: none;" data-mosaic-order-title="Alarme Monitorado Empresarial" data-mosaic-order-date=""></div>		<div class="sprocket-padding">
 								<div class="sprocket-mosaic-image-container">
-									<a href="servicos/alarme-para-empresa.html">				<img src="http://alarmemonitorado.com/images/banners/empresarial2.jpg" alt="" class="sprocket-mosaic-image" />
+									<a href="servicos/alarme-para-empresa.php">				<img src="http://alarmemonitorado.com/images/banners/empresarial2.jpg" alt="" class="sprocket-mosaic-image" />
 										<span class="sprocket-mosaic-hover"></span>
 										<span class="sprocket-mosaic-hovercontent"></span>
 									</a>
@@ -397,14 +405,14 @@ tel"  >
 
 								<div class="sprocket-mosaic-head">
 									<h2 class="sprocket-mosaic-title">
-										<a href="servicos/alarme-para-empresa.html">						Alarme Monitorado Empresarial					</a>				</h2>
+										<a href="servicos/alarme-para-empresa.php">						Alarme Monitorado Empresarial					</a>				</h2>
 
 								</div>
 
 								<div class="sprocket-mosaic-text">
 									Alarme Monitorado reduz em até 94% a chance de roubo no seu comércio. Temos o melhor custo benefício do mercado. 			</div>
 
-								<a href="servicos/alarme-para-empresa.html" class="sprocket-readmore"><span>Read More</span></a>
+								<a href="servicos/alarme-para-empresa.php" class="sprocket-readmore"><span>Read More</span></a>
 
 							</div>
 							</div>
@@ -413,7 +421,7 @@ tel"  >
 							<div class="sprocket-mosaic-item" data-mosaic-content>
 								<div style="display: none;" data-mosaic-order-title="Alarme Monitorado e Serviços" data-mosaic-order-date=""></div>		<div class="sprocket-padding">
 								<div class="sprocket-mosaic-image-container">
-									<a href="servicos.html">				<img src="http://alarmemonitorado.com/images/tumb_servico.jpg" alt="" class="sprocket-mosaic-image" />
+									<a href="servicos.php">				<img src="http://alarmemonitorado.com/images/tumb_servico.jpg" alt="" class="sprocket-mosaic-image" />
 										<span class="sprocket-mosaic-hover"></span>
 										<span class="sprocket-mosaic-hovercontent"></span>
 									</a>
@@ -421,14 +429,14 @@ tel"  >
 
 								<div class="sprocket-mosaic-head">
 									<h2 class="sprocket-mosaic-title">
-										<a href="servicos.html">						Alarme Monitorado e Serviços					</a>				</h2>
+										<a href="servicos.php">						Alarme Monitorado e Serviços					</a>				</h2>
 
 								</div>
 
 								<div class="sprocket-mosaic-text">
 									Acesso Remoto via Aplicativo: possibilita visualizar os eventos, ativar/desativar o alarme, visualizar fotos em tempo real pelo smartphone.			</div>
 
-								<a href="servicos.html" class="sprocket-readmore"><span>Read More</span></a>
+								<a href="servicos.php" class="sprocket-readmore"><span>Read More</span></a>
 
 							</div>
 							</div>
@@ -626,7 +634,7 @@ desbres"  >
 	</a>
 
 	<div class="hidden-desktop sp-mobile-menu nav-collapse collapse">
-		<ul class=""><li class="menu-item active first"><a href="index.html" class="menu-item active first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="sobre-nos.html" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item parent"><a href="servicos.html" class="menu-item parent" ><span class="menu"><span class="menu-title">Serviços</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-220"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-220"><li class="menu-item first"><a href="servicos/alarme-residencial.html" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="servicos/alarme-para-empresa.html" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></li><li class="menu-item"><a href="equipamentos-e-sensores.html" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent"><a href="contato.html" class="menu-item parent" ><span class="menu"><span class="menu-title">Contato</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-254"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-254"><li class="menu-item first"><a href="contato/trabalhe-conosco.html" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></li><li class="menu-item last"><a href="promocoes.html" class="menu-item last" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>
+		<ul class=""><li class="menu-item active first"><a href="index.php" class="menu-item active first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="sobre-nos.php" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item parent"><a href="servicos.php" class="menu-item parent" ><span class="menu"><span class="menu-title">Serviços</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-220"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-220"><li class="menu-item first"><a href="servicos/alarme-residencial.php" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="servicos/alarme-para-empresa.php" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></li><li class="menu-item"><a href="equipamentos-e-sensores.php" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent"><a href="contato.php" class="menu-item parent" ><span class="menu"><span class="menu-title">Contato</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-254"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-254"><li class="menu-item first"><a href="contato/trabalhe-conosco.php" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></li><li class="menu-item last"><a href="promocoes.php" class="menu-item last" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>
 	</div>
 
 
@@ -704,7 +712,7 @@ desbres"  >
 		<div style="display:none;">
 			<div id="inline-auto242" >
 				<p>
-					<a href="http://vocesegurosempre.com.br/promocoes.html" target="_blank"><img alt="" src="http://alarmemonitorado.com/images/poupup-alarme.png" /></a></p>
+					<a href="http://vocesegurosempre.com.br/promocoes.php" target="_blank"><img alt="" src="http://alarmemonitorado.com/images/poupup-alarme.png" /></a></p>
 
 				<p>
 					&nbsp;</p>
