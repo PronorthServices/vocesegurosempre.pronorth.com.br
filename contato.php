@@ -237,7 +237,8 @@ tel"  >
 	<div style="margin-top: 20px; line-height: 20px;">
 <p><strong><img src="../logo.jpg" alt="" width="459" height="106" style="margin-right: 30px; float: left;" /></strong>Tel. (11) 4841-2677<br />E-mail: <a href="mailto:contato@vocesegurosempre.com.br">contato@vocesegurosempre.com.br</a></p>
 </div></div>
-<span class="copyright">Alarme Monitorado Todos Direitos Reservados ©  2018 Desenvolvido por <a href='https://www.g5seo.com.br/'>G5 SEO</a> .</span><a href="http://www.joomshaper.com/" title="joomshaper.com"></a></div>
+<span class="copyright">Você seguro sempre - Todos Direitos Reservados ©  2018 .
+</div>
 
 <div id="sp-footer2" class="span4">
 
