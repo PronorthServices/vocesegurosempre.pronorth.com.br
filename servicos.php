@@ -4,14 +4,14 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"  lang="pt-br"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
     
-<!-- Mirrored from alarmemonitorado.com/servicos/alarme-para-empresa.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Apr 2018 16:29:04 GMT -->
+<!-- Mirrored from alarmemonitorado.com/servicos.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Apr 2018 16:29:04 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
         <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5L7RM7M');</script>
 <!-- End Google Tag Manager -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -19,9 +19,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Super User" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Para Empresas</title>
+	<title>Serviços</title>
 	<link href="http://alarmemonitorado.com/templates/eventus/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-	<link href="../index2205.css?option=com_ajax&amp;plugin=arktypography&amp;format=json" rel="stylesheet" type="text/css" />
+	<link href="index2205.css?option=com_ajax&amp;plugin=arktypography&amp;format=json" rel="stylesheet" type="text/css" />
 	<link href="http://alarmemonitorado.com/templates/eventus/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="http://alarmemonitorado.com/templates/eventus/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
 	<link href="http://alarmemonitorado.com/plugins/system/helix/css/font-awesome.css" rel="stylesheet" type="text/css" />
@@ -35,7 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<link href="http://alarmemonitorado.com/components/com_creativecontactform/assets/css/main.css?version=3.0.0" rel="stylesheet" type="text/css" />
 	<link href="http://alarmemonitorado.com/components/com_creativecontactform/assets/css/creativecss-ui.css" rel="stylesheet" type="text/css" />
 	<link href="http://alarmemonitorado.com/components/com_creativecontactform/assets/css/creative-scroll.css" rel="stylesheet" type="text/css" />
-	<link href="../indexdcd7.css?option=com_creativecontactform&amp;view=creativestyles&amp;format=raw&amp;id_form=1&amp;module_id=0" rel="stylesheet" type="text/css" />
+	<link href="indexdcd7.css?option=com_creativecontactform&amp;view=creativestyles&amp;format=raw&amp;id_form=1&amp;module_id=0" rel="stylesheet" type="text/css" />
 	<link href="http://alarmemonitorado.com/components/com_creativecontactform/assets/css/creative-tooltip.css" rel="stylesheet" type="text/css" />
 	<style type="text/css">
 .container{max-width:1170px}
@@ -127,7 +127,7 @@ spnoConflict(function($){
 
             
 </head>
-    <body  class="article subpage  ltr preset8 menu-alarme-para-empresa responsive bg hfeed clearfix">
+    <body  class="article subpage  ltr preset8 menu-servicos responsive bg hfeed clearfix">
 		<div class="body-innerwrapper">
         <!--[if lt IE 8]>
         
@@ -149,7 +149,7 @@ tel">
 
 <div class="customtelefone
 tel"  >
-	<p><span style="font-size: 10pt; color: #fff; font-family: helvetica;"><img src="http://alarmemonitorado.com/images/Demo/blog/tel.png" alt="" width="21" height="21" /> Grande SP <strong>(11) 4841-2677</strong> &nbsp;&nbsp;|&nbsp;&nbsp; </span><span style="font-size: 10pt; color: #fff; font-family: helvetica;"><img src="http://alarmemonitorado.com/images/Demo/blog/envelope.png" alt="" width="28" height="18" /> contato@vocesegurosempre.com.br</span></p></div>
+	<p><span style="font-size: 10pt; color: #fff; font-family: helvetica;"><img src="http://alarmemonitorado.com/images/Demo/blog/tel.png" alt="" width="21" height="21" /> Grande SP <strong>(11) 4841-2677 </strong> &nbsp;&nbsp;|&nbsp;&nbsp; </span><span style="font-size: 10pt; color: #fff; font-family: helvetica;"><img src="http://alarmemonitorado.com/images/Demo/blog/envelope.png" alt="" width="28" height="18" /> contato@vocesegurosempre.com.br</span></p></div>
 				</div>
 			</div>
 		</div>
@@ -158,13 +158,13 @@ tel"  >
 	</div>
 </div></div></section><header id="sp-header-wrapper" 
                 class=" "><div class="container"><div class="row-fluid" id="header">
-<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="../index.html"><img alt="" class="image-logo" src="logo.jpg" /></a></div></div>
+<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="index.php"><img alt="" class="image-logo" src="logo.jpg" /></a></div></div>
 
 <div id="sp-menu" class="span9">	
 
 
 			<div id="sp-main-menu" class="visible-desktop">
-				<ul class="sp-menu level-0"><li class="menu-item first"><a href="../index.html" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="../sobre-nos.html" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent "><a href="../servicos.html" class="menu-item active parent " ><span class="menu"><span class="menu-title">Serviços</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="alarme-residencial.html" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item active last"><a href="alarme-para-empresa.html" class="menu-item active last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></div></div></div></div></li><li class="menu-item"><a href="../equipamentos-e-sensores.html" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent "><a href="../contato.html" class="menu-item parent " ><span class="menu"><span class="menu-title">Contato</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="../contato/trabalhe-conosco.html" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></div></div></div></div></li><li class="menu-item last promocaoitem"><a href="../promocoes.html" class="menu-item last promocaoitem" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>        
+				<ul class="sp-menu level-0"><li class="menu-item first"><a href="index.php" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="sobre-nos.php" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent "><a href="servicos.php" class="menu-item active parent " ><span class="menu"><span class="menu-title">Serviços</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="servicos/alarme-residencial.php" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="servicos/alarme-para-empresa.php" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></div></div></div></div></li><li class="menu-item"><a href="equipamentos-e-sensores.php" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent "><a href="contato.php" class="menu-item parent " ><span class="menu"><span class="menu-title">Contato</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="contato/trabalhe-conosco.php" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></div></div></div></div></li><li class="menu-item last promocaoitem"><a href="promocoes.php" class="menu-item last promocaoitem" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>        
 			</div>  				
 			</div>
 </div></div></header><section id="sp-main-body-wrapper" 
@@ -174,7 +174,7 @@ tel"  >
 <div id="sp-component-area" class="span12"><section id="sp-component-wrapper"><div id="sp-component"><div id="system-message-container">
 	</div>
 
-<article class="item-page post-90 post hentry status-publish category-uncategorised ">
+<article class="item-page post-91 post hentry status-publish category-uncategorised ">
  
 	 
 	 
@@ -182,17 +182,45 @@ tel"  >
 	
 		
 	<section class="entry-content"> 
-																					<h1>Alarme para empresa</h1>
-<h2><span style="font-size: 18pt;">Consulte um dos nossos especialistas em seguran&ccedil;a para obter um diagn&oacute;stico em poss&iacute;veis &aacute;reas de risco/invas&otilde;es em seu patrim&ocirc;nio.</span></h2>
-<p><img src="http://alarmemonitorado.com/images/stories/banner_pagempresarial.jpg" alt="" width="832" height="230" /></p>
-<h2>Solicite uma visita de um Consultor de Seguran&ccedil;a.</h2>
-<div>&nbsp;</div>
-<div>Entre em contato:</div>
-<div>Fone (11) 4841-2677</div>
-<div>E-mail: contato@vocesegurosempre.com.br</div>
-<div>&nbsp;</div>
-<div style="text-align: justify;">Para garantir cuidados extras a sua empresa, a ADT oferece um Plano de <strong>alarme empresarial</strong> que disponibiliza vantagens exclusivas quando voc&ecirc; mais precisa. Com ADT Prote&ccedil;&atilde;o Garantida, voc&ecirc; disp&otilde;e de reparos aos danos causados por invas&atilde;o ou tentativa de invas&atilde;o. Caso seja imposs&iacute;vel realizar os reparos imediatamente, um vigilante permanecer&aacute; no local at&eacute; que os ajustem sejam finalizados. Al&eacute;m disso, o servi&ccedil;o tamb&eacute;m d&aacute; o direito de uma cobertura de at&eacute; R$ 7.500,00 ou R$ 15.000,00 conforme o plano escolhido para mercadorias ou equipamentos roubados.</div>
-<p>&nbsp;</p>								
+																					<p>
+	<br />
+	<br />
+	<br />
+	&nbsp;</p>
+
+<h2>
+	<span style="padding: 0cm; border: 1pt none windowtext;">Como funciona o alarme monitorado ADT:</span></h2>
+
+<div class="span6" style="margin-left: 0px;">
+	<ul>
+		<li style="height: 90px; display: block;">
+			<img alt="" src="http://alarmemonitorado.com/images/icone-casa.jpg" style="margin-right: 20px; float: left;" />
+			<p style="padding-top: 15px;">
+				<span class="azul"><strong>1.</strong></span> Instalamos sensores em pontos estrat&eacute;gicos da sua resid&ecirc;ncia ou com&eacute;rcio.</p>
+		</li>
+		<li style="height: 90px; display: block;">
+			<img alt="" src="http://alarmemonitorado.com/images/icone-mouse.jpg" style="margin-right: 20px; float: left;" />
+			<p style="padding-top: 15px;">
+				<span class="azul"><strong>2.</strong></span> Por meio do controle remoto, voc&ecirc; pode pedir ajuda em situa&ccedil;&otilde;es de perigo, inclusive quando est&aacute; entrando ou saindo do local.</p>
+		</li>
+	</ul>
+</div>
+
+<div class="span6">
+	<ul>
+		<li style="height: 90px; display: block;">
+			<img alt="" src="http://alarmemonitorado.com/images/icone-pessoa.jpg" style="margin-right: 20px; float: left;" />
+			<p style="padding-top: 15px;">
+				<span class="azul"><strong>3.</strong></span> Se houver invas&atilde;o, n&oacute;s avisamos e verificamos o que est&aacute; acontecendo.</p>
+		</li>
+		<li style="height: 90px; display: block;">
+			<img alt="" src="http://alarmemonitorado.com/images/icone-policial.jpg" style="margin-right: 20px; float: left;" />
+			<p style="padding-top: 15px;">
+				<span class="azul"><strong>4.</strong></span> Se necess&aacute;rio alertamos a pol&iacute;cia e se for princ&iacute;pio de inc&ecirc;ndio os Bombeiros.</p>
+		</li>
+	</ul>
+</div>
+								
 					
 				
 				
@@ -215,7 +243,7 @@ tel"  >
 	 			<div class="creativecontactform_header creative_header_animation_state_1">
 		 			<div class="creativecontactform_title ccf_font_effect_none">Contato</div>
 		 			<div class="creativecontactform_pre_text ccf_font_effect_none">Entre em contato e solicite um orçamento.</div>	 			</div>
- 				<form class="creativecontactform_form" action="obrigado.php" action="post">
+ 				<form class="creativecontactform_form" action="obrigado.php" method="post">
 		 			<div class="creativecontactform_body creative_body_animation_state_1">
 					 		<div class="creativecontactform_clear"></div><div class="creative_field_box_wrapper creative_field_box_wrapper_0 creative_field_box_animation_state_1"><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_1 creative_timing_name  "><div  class="creativecontactform_field_box_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="name_234_1" ><span class="creative_label_txt_wrapper">Nome <span class="creativecontactform_field_required">*</span></span></label><div class="creativecontactform_input_element creativecontactform_required"><div class="creative_input_dummy_wrapper"><span class="the-tooltip top right white"><span class="tooltip_inner creative_tooltip_ivisible">Please enter your name!</span></span><input class="creative_name creativecontactform_required creative_input_reset" pre_value="" value="" type="text" id="name_234_1" name="Nome"></div></div><input type="hidden" name="creativecontactform_fields[1][1]" value="Nome" /><input type="hidden" name="creativecontactform_fields[1][2]" value="name" /></div></div><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_2 creative_timing_phone  "><div  class="creativecontactform_field_box_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="phone_234_163" ><span class="creative_label_txt_wrapper">Telefone</span></label><div class="creativecontactform_input_element "><div class="creative_input_dummy_wrapper"><input class="creative_phone  creative_input_reset" pre_value="" value="" type="text" id="phone_234_163" name="Telefone"></div></div><input type="hidden" name="creativecontactform_fields[2][1]" value="Telefone" /><input type="hidden" name="creativecontactform_fields[2][2]" value="phone" /></div></div><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_3 creative_timing_email  "><div  class="creativecontactform_field_box_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="email_234_2" ><span class="creative_label_txt_wrapper">E-mail <span class="creativecontactform_field_required">*</span></span></label><div class="creativecontactform_input_element creativecontactform_required"><div class="creative_input_dummy_wrapper"><span class="the-tooltip top right white"><span class="tooltip_inner creative_tooltip_ivisible">Please enter your email!</span></span><input class="creative_email creativecontactform_required creative_input_reset" pre_value="" value="" type="text" id="email_234_2" name="Email"></div></div><input type="hidden" name="creativecontactform_fields[3][1]" value="E-mail" /><input type="hidden" name="creativecontactform_fields[3][2]" value="email" /></div></div><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_4 creative_timing_text-area  "><div  class="creativecontactform_field_box_textarea_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="text-area_234_5" ><span class="creative_label_txt_wrapper">Mensagem <span class="creativecontactform_field_required">*</span></span></label><div class="creativecontactform_input_element creative_textarea_wrapper creativecontactform_required"><div class="creative_textarea_dummy_wrapper"><span class="the-tooltip top right white"><span class="tooltip_inner creative_tooltip_ivisible">Write your message!</span></span><textarea class="creative_textarea creative_text-area creativecontactform_required creative_textarea_reset" value="" cols="30" rows="15" id="text-area_234_5" name="Mensagem"></textarea></div></div><input type="hidden" name="creativecontactform_fields[4][1]" value="Mensagem" /><input type="hidden" name="creativecontactform_fields[4][2]" value="text-area" /></div></div></div>						<div class="creative_clear"></div>
 		 			</div>
@@ -228,8 +256,8 @@ tel"  >
 			 			<div class="creativecontactform_clear"></div>
 			 			<input type="hidden" name="9ded17a9efd7ef16acaa2b11c2aeeadc" class="creativecontactform_token" value="1" />
 			 			<input type="hidden" value="201.46.29.187"  name="creativecontactform_ip" />
-			 			<input type="hidden" value="http://alarmemonitorado.com/servicos/alarme-para-empresa.html"  name="creativecontactform_referrer" />
-			 			<input type="hidden" value="Para Empresas"  name="creativecontactform_page_title" />
+			 			<input type="hidden" value="http://alarmemonitorado.com/servicos.html"  name="creativecontactform_referrer" />
+			 			<input type="hidden" value="Serviços"  name="creativecontactform_page_title" />
 			 			<input type="hidden" value="Unknown ?"  name="creativecontactform_browser" />
 			 			<input type="hidden" value="Unknown OS Platform"  name="creativecontactform_operating_system" />
 			 			<input type="hidden" value="" class="ccf_sc_res"  name="creativecontactform_sc_res" />
@@ -237,6 +265,48 @@ tel"  >
 			 			<input type="hidden" value="1" class="creativecontactform_form_id" name="creativecontactform_form_id" />
 		 			</div>
 	 			</form>
+					<?php
+	                    if(count($_POST) > 0 ){
+	                        $nome = $_POST["Nome"];
+	                        $telefone = $_POST["Telefone"];
+	                        $email = $_POST["Email"];
+	                        $mensagem = $_POST["Mensagem"];
+
+	                        try {
+	                            $pdo = new PDO('mysql:host=centraldoslead.mysql.dbaas.com.br;dbname=centraldoslead',"centraldoslead", "julio10");
+	                            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+	                            $stmt = $pdo->prepare('INSERT INTO adt_leads(name, phone, email, message, date_created) VALUES(:nome,:telefone,:email,:mensagem, :date)');
+	                            $stmt->execute(array(
+	                                ':nome' => $nome,
+	                                ':telefone' => $telefone,
+	                                ':email' => $email,
+	                                ':mensagem' => $mensagem,
+	                                ':date' => date('Y-m-d H:i:s')
+	                            ));
+	                            $ch = curl_init();
+
+	                            curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+	                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	                            curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"text\":\"Nome {$nome} - Telefone: {$telefone} - Email:{$email} - Mensagem: {$mensagem} - D\"}");
+	                            curl_setopt($ch, CURLOPT_POST, 1);
+
+	                            $headers = array();
+	                            $headers[] = "Content-Type: application/x-www-form-urlencoded";
+	                            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+	                            $result = curl_exec($ch);
+	                            if (curl_errno($ch)) {
+	                                echo 'Error:' . curl_error($ch);
+	                            }
+	                            curl_close ($ch);
+
+	                            echo "<center>Contato Enviado com sucesso</center>";
+	                        } catch(PDOException $e) {
+	                            echo "Ops! Erro ao processar sua solicitação.";
+	                        }
+	                    }
+					?>
 	 		</div>
 	 		</div>
 
@@ -263,16 +333,7 @@ tel"  >
 	<div style="margin-top: 20px;">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8314783834435!2d-46.579475185022595!3d-23.53856288469431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec33a727d9b%3A0xb6b300d91623090a!2sR.+Alm.+Calheiros%2C+382+-+Tatuap%C3%A9%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1sen!2sbr!4v1525715561856" width="100%" height="135" frameborder="0" style="border:0" allowfullscreen></iframe></div></div>
 </div>
-</div></div></footer>        <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-64402657-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+</div></div></footer>
         </script>
         	
 
@@ -281,7 +342,7 @@ tel"  >
 		</a>
 
 		<div class="hidden-desktop sp-mobile-menu nav-collapse collapse">
-			<ul class=""><li class="menu-item first"><a href="../index.html" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="../sobre-nos.html" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent"><a href="../servicos.html" class="menu-item active parent" ><span class="menu"><span class="menu-title">Serviços</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-220"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-220"><li class="menu-item first"><a href="alarme-residencial.html" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item active last"><a href="alarme-para-empresa.html" class="menu-item active last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></li><li class="menu-item"><a href="../equipamentos-e-sensores.html" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent"><a href="../contato.html" class="menu-item parent" ><span class="menu"><span class="menu-title">Contato</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-254"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-254"><li class="menu-item first"><a href="../contato/trabalhe-conosco.html" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></li><li class="menu-item last"><a href="../promocoes.html" class="menu-item last" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>   
+			<ul class=""><li class="menu-item first"><a href="index.php" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="sobre-nos.php" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent"><a href="servicos.php" class="menu-item active parent" ><span class="menu"><span class="menu-title">Serviços</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-220"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-220"><li class="menu-item first"><a href="servicos/alarme-residencial.php" class="menu-item first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="servicos/alarme-para-empresa.php" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></li><li class="menu-item"><a href="equipamentos-e-sensores.php" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent"><a href="contato.php" class="menu-item parent" ><span class="menu"><span class="menu-title">Contato</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-254"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-254"><li class="menu-item first"><a href="contato/trabalhe-conosco.php" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></li><li class="menu-item last"><a href="promocoes.php" class="menu-item last" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>   
 		</div>
 		        
 
@@ -299,5 +360,5 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 		</div>
     </body>
 
-<!-- Mirrored from alarmemonitorado.com/servicos/alarme-para-empresa.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Apr 2018 16:29:04 GMT -->
+<!-- Mirrored from alarmemonitorado.com/servicos.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Apr 2018 16:29:04 GMT -->
 </html>

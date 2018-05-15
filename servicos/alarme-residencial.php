@@ -158,13 +158,13 @@ tel"  >
 	</div>
 </div></div></section><header id="sp-header-wrapper" 
                 class=" "><div class="container"><div class="row-fluid" id="header">
-<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="../index.html"><img alt="" class="image-logo" src="http://alarmemonitorado.com/images/logo.jpg" /></a></div></div>
+<div id="sp-logo" class="span3"><div class="logo-wrapper"><a href="../index.php"><img alt="" class="image-logo" src="../logo.jpg" /></a></div></div>
 
 <div id="sp-menu" class="span9">	
 
 
 			<div id="sp-main-menu" class="visible-desktop">
-				<ul class="sp-menu level-0"><li class="menu-item first"><a href="../index.html" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="../sobre-nos.html" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent "><a href="../servicos.html" class="menu-item active parent " ><span class="menu"><span class="menu-title">Serviços</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item active first"><a href="alarme-residencial.html" class="menu-item active first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="alarme-para-empresa.html" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></div></div></div></div></li><li class="menu-item"><a href="../equipamentos-e-sensores.html" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent "><a href="../contato.html" class="menu-item parent " ><span class="menu"><span class="menu-title">Contato</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="../contato/trabalhe-conosco.html" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></div></div></div></div></li><li class="menu-item last promocaoitem"><a href="../promocoes.html" class="menu-item last promocaoitem" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>        
+				<ul class="sp-menu level-0"><li class="menu-item first"><a href="../index.php" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="../sobre-nos.php" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent "><a href="../servicos.php" class="menu-item active parent " ><span class="menu"><span class="menu-title">Serviços</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item active first"><a href="alarme-residencial.php" class="menu-item active first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="alarme-para-empresa.php" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></div></div></div></div></li><li class="menu-item"><a href="../equipamentos-e-sensores.php" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent "><a href="../contato.php" class="menu-item parent " ><span class="menu"><span class="menu-title">Contato</span></span></a><div class="sp-submenu"><div class="sp-submenu-wrap"><div class="sp-submenu-inner clearfix" style="width: 200px;"><div class="megacol col1 first" style="width: 200px;"><ul class="sp-menu level-1"><li class="menu-item first"><a href="../contato/trabalhe-conosco.php" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></div></div></div></div></li><li class="menu-item last promocaoitem"><a href="../promocoes.php" class="menu-item last promocaoitem" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>        
 			</div>  				
 			</div>
 </div></div></header><section id="sp-main-body-wrapper" 
@@ -856,7 +856,7 @@ tel"  >
 			 			<div class="creativecontactform_clear"></div>
 			 			<input type="hidden" name="9ded17a9efd7ef16acaa2b11c2aeeadc" class="creativecontactform_token" value="1" />
 			 			<input type="hidden" value="201.46.29.187"  name="creativecontactform_ip" />
-			 			<input type="hidden" value="http://alarmemonitorado.com/servicos/alarme-residencial.html"  name="creativecontactform_referrer" />
+			 			<input type="hidden" value="http://alarmemonitorado.com/servicos/alarme-residencial.php"  name="creativecontactform_referrer" />
 			 			<input type="hidden" value="Para Residências"  name="creativecontactform_page_title" />
 			 			<input type="hidden" value="Unknown ?"  name="creativecontactform_browser" />
 			 			<input type="hidden" value="Unknown OS Platform"  name="creativecontactform_operating_system" />
@@ -865,6 +865,48 @@ tel"  >
 			 			<input type="hidden" value="1" class="creativecontactform_form_id" name="creativecontactform_form_id" />
 		 			</div>
 	 			</form>
+	 							<?php
+	 			                    if(count($_POST) > 0 ){
+	 			                        $nome = $_POST["Nome"];
+	 			                        $telefone = $_POST["Telefone"];
+	 			                        $email = $_POST["Email"];
+	 			                        $mensagem = $_POST["Mensagem"];
+
+	 			                        try {
+	 			                            $pdo = new PDO('mysql:host=centraldoslead.mysql.dbaas.com.br;dbname=centraldoslead',"centraldoslead", "julio10");
+	 			                            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+	 			                            $stmt = $pdo->prepare('INSERT INTO adt_leads(name, phone, email, message, date_created) VALUES(:nome,:telefone,:email,:mensagem, :date)');
+	 			                            $stmt->execute(array(
+	 			                                ':nome' => $nome,
+	 			                                ':telefone' => $telefone,
+	 			                                ':email' => $email,
+	 			                                ':mensagem' => $mensagem,
+	 			                                ':date' => date('Y-m-d H:i:s')
+	 			                            ));
+	 			                            $ch = curl_init();
+
+	 			                            curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+	 			                            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	 			                            curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"text\":\"Nome {$nome} - Telefone: {$telefone} - Email:{$email} - Mensagem: {$mensagem} - D\"}");
+	 			                            curl_setopt($ch, CURLOPT_POST, 1);
+
+	 			                            $headers = array();
+	 			                            $headers[] = "Content-Type: application/x-www-form-urlencoded";
+	 			                            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+	 			                            $result = curl_exec($ch);
+	 			                            if (curl_errno($ch)) {
+	 			                                echo 'Error:' . curl_error($ch);
+	 			                            }
+	 			                            curl_close ($ch);
+
+	 			                            echo "<center>Contato Enviado com sucesso</center>";
+	 			                        } catch(PDOException $e) {
+	 			                            echo "Ops! Erro ao processar sua solicitação.";
+	 			                        }
+	 			                    }
+	 							?>
 	 		</div>
 	 		</div>
 
@@ -899,7 +941,7 @@ tel"  >
 		</a>
 
 		<div class="hidden-desktop sp-mobile-menu nav-collapse collapse">
-			<ul class=""><li class="menu-item first"><a href="../index.html" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="../sobre-nos.html" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent"><a href="../servicos.html" class="menu-item active parent" ><span class="menu"><span class="menu-title">Serviços</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-220"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-220"><li class="menu-item active first"><a href="alarme-residencial.html" class="menu-item active first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="alarme-para-empresa.html" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></li><li class="menu-item"><a href="../equipamentos-e-sensores.html" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent"><a href="../contato.html" class="menu-item parent" ><span class="menu"><span class="menu-title">Contato</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-254"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-254"><li class="menu-item first"><a href="../contato/trabalhe-conosco.html" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></li><li class="menu-item last"><a href="../promocoes.html" class="menu-item last" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>   
+			<ul class=""><li class="menu-item first"><a href="../index.php" class="menu-item first" ><span class="menu"><span class="menu-title">Home</span></span></a></li><li class="menu-item"><a href="../sobre-nos.php" class="menu-item" ><span class="menu"><span class="menu-title">Sobre Nós</span></span></a></li><li class="menu-item active parent"><a href="../servicos.php" class="menu-item active parent" ><span class="menu"><span class="menu-title">Serviços</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-220"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-220"><li class="menu-item active first"><a href="alarme-residencial.php" class="menu-item active first" ><span class="menu"><span class="menu-title">Para Residências</span></span></a></li><li class="menu-item last"><a href="alarme-para-empresa.php" class="menu-item last" ><span class="menu"><span class="menu-title">Para Empresas</span></span></a></li></ul></li><li class="menu-item"><a href="../equipamentos-e-sensores.php" class="menu-item" ><span class="menu"><span class="menu-title">Equipamentos</span></span></a></li><li class="menu-item parent"><a href="../contato.php" class="menu-item parent" ><span class="menu"><span class="menu-title">Contato</span></span></a><span class="sp-menu-toggler collapsed" data-toggle="collapse" data-target=".collapse-254"><i class="icon-angle-right"></i><i class="icon-angle-down"></i></span><ul class="collapse collapse-254"><li class="menu-item first"><a href="../contato/trabalhe-conosco.php" class="menu-item first" ><span class="menu"><span class="menu-title">Trabalhe Conosco</span></span></a></li></ul></li><li class="menu-item last"><a href="../promocoes.php" class="menu-item last" ><span class="menu"><span class="menu-title">PROMOÇÕES</span></span></a></li></ul>   
 		</div>
 		        
 
