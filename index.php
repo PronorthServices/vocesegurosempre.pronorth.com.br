@@ -115,7 +115,7 @@
         }
 
         window.addEvent("load", function() {
-            SqueezeBox.open('http://alarmemonitorado.com/images/poupup-alarme.png',{handler: 'image', onUpdate:function(){setTimeout('popupAnywherecloseWindow();',15000);$('sbox-content').addEvent('click', function(){parent.window.location.href='http://vocesegurosempre.com.br/promocoes.html';});}});
+            SqueezeBox.open('http://alarmemonitorado.com/images/poupup-alarme.png',{handler: 'image', onUpdate:function(){setTimeout('popupAnywherecloseWindow();',15000);$('sbox-content').addEvent('click', function(){parent.window.location.href='http://vocesegurosempre.com.br/promocoes.php';});}});
         });
         spnoConflict(function($){
 

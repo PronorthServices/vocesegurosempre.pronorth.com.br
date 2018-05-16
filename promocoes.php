@@ -231,7 +231,7 @@ tel"  >
 	</ul>
 
 	<p>
-		<em><span style="font-size: 10pt;">* Oferta v&aacute;lida at&eacute; <strong><em><span style="font-size: 10pt;"><strong>27/04/2018</strong></span></em>.</strong></span></em><br />
+		<em><span style="font-size: 10pt;">* Oferta v&aacute;lida at&eacute; <strong><em><span style="font-size: 10pt;"><strong>27/05/2018</strong></span></em>.</strong></span></em><br />
 		<em><span style="font-size: 10pt;">** Promo&ccedil;&atilde;o de 50% (Cinquenta&nbsp;por cento) de desconto nas 5&nbsp;(cinco) primeiras mensalidades, na op&ccedil;&atilde;o de&nbsp; pagamento em Cart&atilde;o de Cr&eacute;dito (Visa, Master ou Amex).</span></em><br />
 		<em><span style="font-size: 10pt;">***Para outras condi&ccedil;&otilde;es e/ou promo&ccedil;&otilde;es, preencha o formul&aacute;rio nessa p&aacute;gina e receba um de nossos consultores de seguran&ccedil;a gratuitamente.</span></em></p>
 </div>
@@ -299,7 +299,7 @@ tel"  >
 </div>
 
 <p>
-	<em><span style="font-size: 10pt;">* Oferta v&aacute;lida at&eacute;&nbsp;<strong><em><span style="font-size: 10pt;"><strong>27/04/2018</strong></span></em>.</strong></span></em><br />
+	<em><span style="font-size: 10pt;">* Oferta v&aacute;lida at&eacute;&nbsp;<strong><em><span style="font-size: 10pt;"><strong>27/05/2018</strong></span></em>.</strong></span></em><br />
 	<em><span style="font-size: 10pt;">** Promo&ccedil;&atilde;o de 50% (Cinquenta&nbsp;por cento) de desconto nas 5&nbsp;(cinco) primeiras mensalidades, na op&ccedil;&atilde;o de&nbsp; pagamento em Cart&atilde;o de Cr&eacute;dito (Visa, Master ou Amex).</span></em><br />
 	<em><span style="font-size: 10pt;">***Para outras condi&ccedil;&otilde;es e/ou promo&ccedil;&otilde;es, preencha o formul&aacute;rio nessa p&aacute;gina e receba um de nossos consultores de seguran&ccedil;a gratuitamente.</span></em></p>
 
@@ -361,7 +361,7 @@ tel"  >
 	&nbsp;</p>
 
 <p>
-	<em><span style="font-size: 10pt;">* Oferta v&aacute;lida at&eacute;&nbsp;<strong><em><span style="font-size: 10pt;"><strong>27/04/2018</strong></span></em>.</strong></span></em><br />
+	<em><span style="font-size: 10pt;">* Oferta v&aacute;lida at&eacute;&nbsp;<strong><em><span style="font-size: 10pt;"><strong>27/05/2018</strong></span></em>.</strong></span></em><br />
 	<em><span style="font-size: 10pt;">** Promo&ccedil;&atilde;o de 50% (Cinquenta&nbsp;por cento) de desconto nas 5&nbsp;(cinco) primeiras mensalidades, na op&ccedil;&atilde;o de&nbsp; pagamento em Cart&atilde;o de Cr&eacute;dito (Visa, Master ou Amex).</span></em><br />
 	<em><span style="font-size: 10pt;">***Para outras condi&ccedil;&otilde;es e/ou promo&ccedil;&otilde;es, preencha o formul&aacute;rio nessa p&aacute;gina e receba um de nossos consultores de seguran&ccedil;a gratuitamente.</span></em></p>
 
@@ -371,71 +371,6 @@ tel"  >
 <p>
 	&nbsp;</p>
 
-<hr />
-<h1 style="text-align: justify;">
-	<span style="font-size: 24pt;"><span style="color: rgb(0, 93, 171); font-size: 30pt;">KIT TOP&nbsp;+ C&Acirc;MERA com DVR&nbsp;| &nbsp;</span><strong><span style="color: rgb(0, 93, 171);"><strong><span style="font-size: 18pt;"><span style="font-size: 30pt;">Menos de R$ 4,50 por dia.</span></span></strong></span></strong></span></h1>
-
-<h1 style="text-align: justify;">
-	<img alt="" src="../www.alarmemonitorado.com/images/kit3.jpg" /></h1>
-
-<p>
-	<u>Equipamentos&nbsp;inclusos:</u></p>
-
-<ul>
-	<li>
-		Painel de Alarme Visonic com bateria integrada com autonomia&nbsp;de 24 horas (teclado embutido).</li>
-	<li>
-		Comunicador sem fio GSM/GPRS (inclui cart&atilde;o SIM).</li>
-	<li>
-		Um controle remoto sem fio com bot&atilde;o de emerg&ecirc;ncia.</li>
-	<li>
-		Um sensor de movimento sem fio (infravermelho)</li>
-	<li>
-		Um sensor magn&eacute;tico sem fio para portas e janelas.</li>
-	<li>
-		Duas c&acirc;meras HD (interna ou externa).</li>
-	<li>
-		Um DVR de 1TB.</li>
-	<li>
-		Placa azul &ldquo;Protegido por ADT&rdquo;</li>
-</ul>
-
-<p>
-	<u>Servi&ccedil;os inclusos:</u></p>
-
-<ul>
-	<li>
-		ADT Monitoramento: Prote&ccedil;&atilde;o do local contra invas&atilde;o e alerta &agrave;s autoridades.</li>
-	<li>
-		ADT Check Up: Verifica&ccedil;&atilde;o da comunica&ccedil;&atilde;o entre o alarme e a Central ADT.</li>
-	<li>
-		ADT Relat&oacute;rio: Acompanhe por e-mail os hor&aacute;rios de arme e desarme por cada pessoa.</li>
-	<li>
-		ADT Manuten&ccedil;&atilde;o do Alarme: M&atilde;o-de-obra para reparos no sistema de alarme.</li>
-	<li>
-		ADT Manuten&ccedil;&atilde;o do CFTV: M&atilde;o-de-obra para reparos no sistema de CFTV.</li>
-	<li>
-		ADT Comunica&ccedil;&atilde;o Segura TCP/IP: Via alternativa de comunica&ccedil;&atilde;o que precisa de internet.</li>
-	<li>
-		ADT Comunica&ccedil;&atilde;o Segura: Via alternativa de comunica&ccedil;&atilde;o que n&atilde;o depende da linha telef&ocirc;nica:</li>
-	<li>
-		Acesso Remoto via Aplicativo: Possibilidade ativar e desativar o sistema de alarme pelo smartphone.</li>
-</ul>
-
-<p>
-	&nbsp;</p>
-
-<p>
-	<em>* Oferta v&aacute;lida at&eacute;&nbsp;<strong>27/04/2018.</strong></em><br />
-	<em>** Promo&ccedil;&atilde;o de 50% (Cinquenta&nbsp;por cento) de desconto nas 5&nbsp;(cinco) primeiras mensalidades, na op&ccedil;&atilde;o de&nbsp; pagamento em Cart&atilde;o de Cr&eacute;dito (Visa, Master ou Amex).</em><br />
-	<em>***Para outras condi&ccedil;&otilde;es e/ou promo&ccedil;&otilde;es, preencha o formul&aacute;rio nessa p&aacute;gina e receba um de nossos consultores de seguran&ccedil;a gratuitamente.</em></p>
-								
-					
-				
-				
-								
-		
-							
 		
     </footer>
 </article></div></section></div>
@@ -452,7 +387,7 @@ tel"  >
 	 			<div class="creativecontactform_header creative_header_animation_state_1">
 		 			<div class="creativecontactform_title ccf_font_effect_none">Contato</div>
 		 			<div class="creativecontactform_pre_text ccf_font_effect_none">Entre em contato e solicite um orçamento.</div>	 			</div>
- 				<form class="creativecontactform_form" action="obrigado.php" method="post">
+ 				<form class="creativecontactform_form" action="#" method="post">
 		 			<div class="creativecontactform_body creative_body_animation_state_1">
 					 		<div class="creativecontactform_clear"></div><div class="creative_field_box_wrapper creative_field_box_wrapper_0 creative_field_box_animation_state_1"><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_1 creative_timing_name  "><div  class="creativecontactform_field_box_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="name_234_1" ><span class="creative_label_txt_wrapper">Nome <span class="creativecontactform_field_required">*</span></span></label><div class="creativecontactform_input_element creativecontactform_required"><div class="creative_input_dummy_wrapper"><span class="the-tooltip top right white"><span class="tooltip_inner creative_tooltip_ivisible">Please enter your name!</span></span><input class="creative_name creativecontactform_required creative_input_reset" pre_value="" value="" type="text" id="name_234_1" name="Nome"></div></div><input type="hidden" name="creativecontactform_fields[1][1]" value="Nome" /><input type="hidden" name="creativecontactform_fields[1][2]" value="name" /></div></div><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_2 creative_timing_phone  "><div  class="creativecontactform_field_box_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="phone_234_163" ><span class="creative_label_txt_wrapper">Telefone</span></label><div class="creativecontactform_input_element "><div class="creative_input_dummy_wrapper"><input class="creative_phone  creative_input_reset" pre_value="" value="" type="text" id="phone_234_163" name="Telefone"></div></div><input type="hidden" name="creativecontactform_fields[2][1]" value="Telefone" /><input type="hidden" name="creativecontactform_fields[2][2]" value="phone" /></div></div><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_3 creative_timing_email  "><div  class="creativecontactform_field_box_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="email_234_2" ><span class="creative_label_txt_wrapper">E-mail <span class="creativecontactform_field_required">*</span></span></label><div class="creativecontactform_input_element creativecontactform_required"><div class="creative_input_dummy_wrapper"><span class="the-tooltip top right white"><span class="tooltip_inner creative_tooltip_ivisible">Please enter your email!</span></span><input class="creative_email creativecontactform_required creative_input_reset" pre_value="" value="" type="text" id="email_234_2" name="Email"></div></div><input type="hidden" name="creativecontactform_fields[3][1]" value="E-mail" /><input type="hidden" name="creativecontactform_fields[3][2]" value="email" /></div></div><div id=""  class="creativecontactform_field_box creative_hidden_animation_block_state1 creative_timing_4 creative_timing_text-area  "><div  class="creativecontactform_field_box_textarea_inner"><label normal_effect_class="ccf_font_effect_none" hover_effect_class="ccf_font_effect_none" error_effect_class="ccf_font_effect_none" class="creativecontactform_field_name ccf_font_effect_none" for="text-area_234_5" ><span class="creative_label_txt_wrapper">Mensagem <span class="creativecontactform_field_required">*</span></span></label><div class="creativecontactform_input_element creative_textarea_wrapper creativecontactform_required"><div class="creative_textarea_dummy_wrapper"><span class="the-tooltip top right white"><span class="tooltip_inner creative_tooltip_ivisible">Write your message!</span></span><textarea class="creative_textarea creative_text-area creativecontactform_required creative_textarea_reset" value="" cols="30" rows="15" id="text-area_234_5" name="Mensagem"></textarea></div></div><input type="hidden" name="creativecontactform_fields[4][1]" value="Mensagem" /><input type="hidden" name="creativecontactform_fields[4][2]" value="text-area" /></div></div></div>						<div class="creative_clear"></div>
 		 			</div>
@@ -534,7 +469,8 @@ tel"  >
 	<div style="margin-top: 20px; line-height: 20px;">
 <p><strong><img src="logo.jpg" alt="" width="459" height="106" style="margin-right: 30px; float: left;" /></strong>Tel. (11) 4841-2677<br />E-mail: <a href="mailto:contato@vocesegurosempre.com.br">contato@vocesegurosempre.com.br</a></p>
 </div></div>
-<span class="copyright">Alarme Monitorado Todos Direitos Reservados ©  2018 Desenvolvido por <a href='https://www.g5seo.com.br/'>G5 SEO</a> .</span><a href="http://www.joomshaper.com/" title="joomshaper.com"></a></div>
+<span class="copyright">Você seguro sempre - Todos Direitos Reservados ©  2018 .
+</div>
 
 <div id="sp-footer2" class="span4">
 
