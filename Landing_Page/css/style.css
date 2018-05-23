@@ -9,6 +9,7 @@
 body{
   color: #676a6c;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
+  overflow-x: hidden;
 }
 span.navy {
   color: #005dab;
@@ -150,17 +151,6 @@ h1 {
    height: 48vh;
 }
 
-@media (max-width: 768px) {
-  .header-back img{
-     width: 125vw;
-     height: 48vh;
-  }
-
-  .header-back {
-    margin-top: 75px;
-  }
-}
-
 .header-back.two {
   background: url('../img/slide2.jpg') no-repeat;
   background-size: cover;
@@ -168,6 +158,31 @@ h1 {
 .header-back.tree {
   background: url('../img/slide3.jpg') no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .header-back img{
+     width: 125vw;
+     height: 48vh;
+  }
+  
+  .header-back {
+    margin-top: 75px;
+
+  }
+
+}
+@media (max-width: 474px) {
+  .header-back img{
+     width: 168vw;
+     height: 48vh;
+  }
+  
+  .header-back {
+    margin-top: 75px;
+
+  }
+
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */

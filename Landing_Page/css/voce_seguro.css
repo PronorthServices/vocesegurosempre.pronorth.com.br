@@ -71,6 +71,13 @@
 .imagens-equipamentos{
 	margin-top: 50px;
 }
+
+
+@media (max-width: 767px){
+	.carousel-caption{
+		display: none;
+	}
+}
 /*------------- carousel -------------*/
 .ibox-content {
     background-color: #fff;
@@ -96,6 +103,18 @@
 	font-size: 60px;
 }
 
+.content-img-servicos{
+	padding: 5px;
+	background: #F0FFF0;
+}
+
+.content-img-servicos small{
+	padding: 10px 0;
+	font-weight: 500;
+}
+
+
+
 @media (max-width: 767px){
 	.cards-servicos{
 		margin-left: 20%;
@@ -104,7 +123,9 @@
 }
 
 /* ----------- Section Quem Somos ------------*/
-
+#quem-somos{
+	background: #F0FFF0;
+}
 .central{
 	margin-top: 50px;
 }
