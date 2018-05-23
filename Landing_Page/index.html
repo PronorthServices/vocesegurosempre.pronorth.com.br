@@ -85,7 +85,7 @@
             -->
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back one img-responsive"></div>
+            <div class="header-back"><img src="img/slide001.jpg" alt=""></div>
 
         </div>
         <!--
@@ -190,11 +190,11 @@
         <div class="col-md-2 text-center wow fadeInLeft">
             
         </div>
-        <div class="col-lg-8 wow fadeIn" >
+        <div class="col-lg-9 wow fadeIn" >
                     <div class="ibox float-e-margins">
                         
                     </div>
-                        <div class="ibox-content ">
+                        <div class="ibox-content wow bounceIn">
                             <div class="carousel slide" id="carousel2">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel2"  class="active"></li>
@@ -205,34 +205,34 @@
                                     <li data-slide-to="5" data-target="#carousel2"></li>
                                 </ol>
                                 <div class="carousel-inner">
-                                    <div class="item active">
+                                    <div class="item active ">
                                         <img alt="image"  class="img-responsive" src="img/produto1.jpg">
                                         <div class="carousel-caption">
                                             <p>O SMA sem fio é um sensor de abertura que detecta a abertura de portas ou janelas. Também usado como transmissor para adaptações de sensores com fio. indicado para portas e janelas de madeira, aluminio ou vidro. Não indicado para portas ou janelas de ferro ou aço.</p>
                                         </div>
                                     </div>
                                     <div class="item ">
-                                        <img alt="image"  class="img-responsive" src="img/produto2.jpg">
+                                        <img alt="image"  class="img-responsive"  src="img/produto2.jpg" width="200px">
                                         <div class="carousel-caption">
-                                            <p>This is simple caption 2</p>
+                                            <p>O sistema sem fio é um sistema integrado com caixa de proteção, transformador, bateria, sirene de 85dB, receptor com alcance aproximado de 60m e tecaldo. Obrigatório para clientes de venda ou comodato.</p>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <img alt="image"  class="img-responsive" src="img/produto3.jpg">
                                         <div class="carousel-caption">
-                                            <p>This is simple caption 3</p>
+                                            <p>O SIV sem fio é um sensor de presença que detecta pessoas no ambiente. Indicado para a maioria dos ambientes com um ou mais pontos de invasão de do alcance. Não indicado para ambientes coom animais, vento, semiexternos ou externos.</p>
                                         </div>
                                     </div> 
                                     <div class="item">
                                         <img alt="image"  class="img-responsive" src="img/produto4.jpg">
                                         <div class="carousel-caption">
-                                            <p>This is simple caption 3</p>
+                                            <p>O SIV sem fio com camêra é um sensor de presença que detecta pessoas no ambiente e fotografa. Indicado para a maioria dos ambientes com um ou mais pontos de invasão dentro do alcance. Não indicado para ambientes com animais, vento, semiexternos ou externos.</p>
                                         </div>
                                     </div>
                                     <div class="item">
                                         <img alt="image"  class="img-responsive" src="img/produto05.jpg">
                                         <div class="carousel-caption">
-                                            <p>This is simple caption 3</p>
+                                            <p>o SMA de porta retratil sem fio é um sensor de abertura que detecta abertura de portas na vertical como portas de enrolar (aço) ou basculantes.</p>
                                         </div>
                                     </div>
                                     <div class="item">
@@ -454,11 +454,15 @@
                 <h1>
                     O que dizem nossos clientes
                 </h1>
-                <div class="testimonials-text">
-                    <i>"Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
-                    Fui prontamente atendida, com projeto e serviço de extrema qualidade e acabamento perfeito.
-                    Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
-                    O alarme que era meu ponto de preocupação por já ter tido problema com outra empresa, também me atende perfeitamente bem, sem disparos falsos ou outros tipos de inconvenientes."</i>
+                <div class="ibox">
+                    <div class="slick_demo_1">
+                                <div class="testimonials-text ">
+                                    <i>"Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
+                                    Fui prontamente atendida, com projeto e serviço de extrema qualidade e acabamento perfeito.
+                                    Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
+                                    O alarme que era meu ponto de preocupação por já ter tido problema com outra empresa, também me atende perfeitamente bem, sem disparos falsos ou outros tipos de inconvenientes."</i>
+                                </div>                        
+                    </div>
                 </div>
                 <small>
                     <strong class="destaque">12.02.2018 - Andy Smith</strong>
@@ -757,7 +761,7 @@
                         </div>
 
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary">Enviar</button>
+                            <button type="button" class="btn btn-primary bt">Enviar</button>
                         </div>
     
                     </form>
@@ -772,7 +776,11 @@
                     Siga-nos também nas redes sociais
                 </p>
                 <ul class="list-inline social-icon">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    <li>
+                        <a href="https://www.facebook.com/Voc%C3%AA-Seguro-Sempre-Alarme-Monitorado-202562450346666/?hc_ref=ARToithlf2c62tjInI6ticMVoKz886QUE6X2omfwpA9LUFj_EuVG2GNrNBruZbjL12I&fref=nf" target="_blank">
+                            <i class="fa fa-facebook">
+                            </i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -793,6 +801,14 @@
 <script src="js/wow.min.js"></script>
 <script src="js/inspinia.js"></script>
 
+<!-- Slick carousel-->
+<script src="js/plugins/slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+    });
+</script>
 
 
 </body>
