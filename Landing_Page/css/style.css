@@ -163,19 +163,29 @@ h1 {
 @media (max-width: 768px) {
   .header-back img{
      width: 125vw;
-     height: 48vh;
   }
-  
+
   .header-back {
     margin-top: 75px;
 
   }
 
 }
+
+@media (max-height: 1024px){
+  .header-back img{
+     height: 35vh;
+  }
+
+@media (max-height: 800px){
+  .header-back img{
+     height: 50vh;
+  }
+}
 @media (max-width: 474px) {
   .header-back img{
      width: 168vw;
-     height: 48vh;
+     height: 55vh;
   }
   
   .header-back {
