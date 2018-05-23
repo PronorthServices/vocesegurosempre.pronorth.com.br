@@ -147,13 +147,17 @@ h1 {
 
 .header-back img{
    width: 100vw;
-   height: 60vh;
+   height: 48vh;
 }
 
 @media (max-width: 768px) {
   .header-back img{
      width: 125vw;
-     height: 65vh;
+     height: 48vh;
+  }
+
+  .header-back {
+    margin-top: 75px;
   }
 }
 
