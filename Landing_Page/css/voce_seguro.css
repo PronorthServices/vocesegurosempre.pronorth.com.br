@@ -4,6 +4,26 @@
 	box-shadow:  1px 2px 4px -1px #ccc;
 }
 
+.logo img{
+	width: 250px;
+}
+@media (max-width: 991px){
+	.logo img{
+		width: 200px;
+	}
+	.menu{
+		margin-right: -30px;
+	}
+}
+
+
+@media (max-width: 474px){
+	.logo img{
+		width: 180px;
+	}
+}
+
+
 /* ----------- Section Serviços ------------ */
 #servicos{
 	background: #F0FFF0;
@@ -19,6 +39,7 @@
 }
 .image-cards-servicos{
 	width: 360px;
+	height: 250px;
 }
 
 .bottom-cards-servicos{
@@ -31,6 +52,17 @@
 .texto-cards-servicos{
 	font-size: 15px;
 	color: #000;		
+}
+
+
+@media (max-width: 767px){
+	.image-cards-servicos{
+		height: auto;
+	}
+
+	.texto-cards-servicos{
+		font-size: 13px;
+	}
 }
 /* ----------- Section Equipamentos ------------ */
 
