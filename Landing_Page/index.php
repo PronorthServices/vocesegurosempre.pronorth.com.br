@@ -483,9 +483,8 @@
                                     <div class="ibox-content comentarios ">
                                         <i>
                                             "Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
-                                            Fui prontamente atendida, com projeto e serviço de extrema qualidade e acabamento perfeito.
                                             Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
-                                            O alarme que era meu ponto de preocupação por já ter tido problema com outra empresa, também me atende perfeitamente bem, sem disparos falsos ou outros tipos de inconvenientes."
+        
                                         </i>
                                         <br>
                                         <small>
