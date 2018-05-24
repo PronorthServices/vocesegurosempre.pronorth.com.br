@@ -55,6 +55,10 @@
 
 
 @media (max-width: 767px){
+	.cards-servicos{
+		margin-left: 20%;
+		margin-bottom: 30px;
+	}
 	.image-cards-servicos{
 		height: auto;
 	}
@@ -63,6 +67,7 @@
 		font-size: 13px;
 	}
 }
+
 /* ----------- Section Equipamentos ------------ */
 
 .espaco-chamadas{
@@ -73,11 +78,6 @@
 }
 
 
-@media (max-width: 767px){
-	.carousel-caption{
-		display: none;
-	}
-}
 /*------------- carousel -------------*/
 .ibox-content {
     background-color: #fff;
@@ -86,7 +86,6 @@
     overflow: hidden;
     margin-top: 50px;
     box-shadow:  3px 3px 10px 3px #ccc;
-
 }
 
 .ibox-content {
@@ -105,20 +104,47 @@
 
 .content-img-servicos{
 	padding: 5px;
-	background: #F0FFF0;
+	background: rgba(0, 93, 171,.05);
 }
 
 .content-img-servicos small{
 	padding: 10px 0;
 	font-weight: 500;
 }
+.content-mini{
+	display: inline-flex;
+}
+.mini-produto{
+	list-style: none;
+	margin: 15px 5px;
+	display: block;
+	overflow: hidden; 
+}
 
+.mini-produto img{
+	max-width: 100%;
+	background-color: rgba(0, 93, 171,.05);
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 4px;
 
+	-webkit-transition: 1s all ;
+	-o-transition: 1s all ;
+	transition: 1s all ;
+}
+
+.mini-produto:hover img{
+
+	background-color: rgba(0, 93, 171);
+	-webkit-transition: 1s background ease-in-out;
+	-o-transition: 1s background ease-in-out;
+	transition: 1s background ease-in-out;
+
+}
 
 @media (max-width: 767px){
-	.cards-servicos{
-		margin-left: 20%;
-		margin-bottom: 30px;
+	.carousel-caption{
+		display: none;
 	}
 }
 
