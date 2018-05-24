@@ -162,6 +162,29 @@
  	color: #005dab !important;
  }
 
+
+ /*Carousel comentarios*/
+ .comentarios{
+ 	background: transparent;
+ 	box-shadow: none;
+ 	margin: 0px;
+ 	padding-top: 30px;
+ 	font-size: 16px;
+ 	color: #fff;
+ 	letter-spacing: 2px;
+ }
+
+ .slick-prev{
+ 	left: -100px;
+ }
+ .slick-next{
+ 	right: -100px;
+ }
+
+ .slick-dots li.slick-active button::before{
+ 	color: #00FFFF;
+ }
+
  /* ----------- Section Contato ------------*/
 
 .destaque{

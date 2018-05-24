@@ -14,6 +14,10 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- slick CSS -->
+    <link rel="stylesheet" href="css/plugins/slick/slick.css">
+    <link rel="stylesheet" href="css/plugins/slick/slick-theme.css">
+
     <!-- Animation CSS -->
     <link href="css/animate.min.css" rel="stylesheet">
 
@@ -454,23 +458,59 @@
                 <h1>
                     O que dizem nossos clientes
                 </h1>
-                <div class="ibox">
-                    <div class="slick_demo_1">
-                                <div class="testimonials-text ">
-                                    <i>"Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
-                                    Fui prontamente atendida, com projeto e serviço de extrema qualidade e acabamento perfeito.
-                                    Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
-                                    O alarme que era meu ponto de preocupação por já ter tido problema com outra empresa, também me atende perfeitamente bem, sem disparos falsos ou outros tipos de inconvenientes."</i>
-                                </div>                        
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="ibox">
+                            <div class="slick_demo_1">
+                                <div>
+                                    <div class="ibox-content comentarios ">
+                                        <i>
+                                            "Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
+                                            Fui prontamente atendida, com projeto e serviço de extrema qualidade e acabamento perfeito.
+                                            Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
+                                            O alarme que era meu ponto de preocupação por já ter tido problema com outra empresa, também me atende perfeitamente bem, sem disparos falsos ou outros tipos de inconvenientes."
+                                        </i>
+                                        <br>
+                                        <small>
+                                            <strong class="destaque">12.02.2018 - Leandro Souza</strong>
+                                        </small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="ibox-content comentarios ">
+                                        <i>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                            unknown printer took a galley of type and scrambled it to make a type specimen
+                                            book. It has survived not only five centuries, but also the leap.
+                                        </i>
+                                        <br>
+                                        <small>
+                                            <strong class="destaque">12.02.2018 - Andy Smith</strong>
+                                        </small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="ibox-content comentarios ">
+                                        <i>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                            unknown printer took a galley of type and scrambled it to make a type specimen
+                                            book. It has survived not only five centuries, but also the leap.
+                                        </i>
+                                        <br>
+                                        <small>
+                                            <strong class="destaque">12.02.2018 - Andy Smith</strong>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <small>
-                    <strong class="destaque">12.02.2018 - Andy Smith</strong>
-                </small>
             </div>
         </div>
     </div>
-
 </section>
 <!--<section class="comments gray-section" style="margin-top: 0">
     <div class="container">
@@ -800,13 +840,16 @@
 <script src="js/cbpAnimatedHeader.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/inspinia.js"></script>
+<script src="js/slick.js"></script>
 
 <!-- Slick carousel-->
 <script src="js/plugins/slick/slick.min.js"></script>
 
 <script>
     $(document).ready(function(){
-
+        $('.slick_demo_1').slick({
+                dots: true
+        });
     });
 </script>
 

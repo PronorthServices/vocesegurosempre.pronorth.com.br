@@ -412,8 +412,8 @@ li.pricing-title {
   font-weight: 600;
 }
 .testimonials {
-  padding-top: 80px;
-  padding-bottom: 90px;
+  padding-top: 25px;
+  padding-bottom: 30px;
   background-color: #428bb1;
   background-image: url('../img/avatar_all.png');
 }
