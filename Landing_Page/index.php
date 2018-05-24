@@ -791,7 +791,7 @@
                         <br>
                         <div class="input-group col-md-7">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                            <input id="email" type="email" class="form-control" name="Email" placeholder="email@.com.br">
+                            <input id="email" type="email" class="form-control" name="email" placeholder="email@.com.br">
                         </div>
                         <br>
                         <div class="tipo-servico">

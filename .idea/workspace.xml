@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fe82b9-0d1c-4641-b0d1-9d8cf8237819" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Landing_Page/index.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Landing_Page/index.php" afterPath="$PROJECT_DIR$/Landing_Page/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,10 +40,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Landing_Page/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="760" column="20" lean-forward="true" selection-start-line="760" selection-start-column="20" selection-end-line="760" selection-end-column="20" />
+            <state relative-caret-position="413">
+              <caret line="793" column="91" lean-forward="false" selection-start-line="793" selection-start-column="91" selection-end-line="793" selection-end-column="91" />
               <folding>
-                <marker date="1527170636333" expanded="true" signature="37180:37311" ph="INSERT INTO adt_leads... " />
+                <marker date="1527170886057" expanded="true" signature="37180:37311" ph="INSERT INTO adt_leads... " />
               </folding>
             </state>
           </provider>
@@ -209,12 +208,12 @@
       <workItem from="1525889696991" duration="1254000" />
       <workItem from="1526561933001" duration="626000" />
       <workItem from="1527080868305" duration="1390000" />
-      <workItem from="1527167458465" duration="2273000" />
+      <workItem from="1527167458465" duration="2503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32904000" />
+    <option name="totallyTimeSpent" value="33134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -382,10 +381,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Landing_Page/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="760" column="20" lean-forward="true" selection-start-line="760" selection-start-column="20" selection-end-line="760" selection-end-column="20" />
+        <state relative-caret-position="413">
+          <caret line="793" column="91" lean-forward="false" selection-start-line="793" selection-start-column="91" selection-end-line="793" selection-end-column="91" />
           <folding>
-            <marker date="1527170636333" expanded="true" signature="37180:37311" ph="INSERT INTO adt_leads... " />
+            <marker date="1527170886057" expanded="true" signature="37180:37311" ph="INSERT INTO adt_leads... " />
           </folding>
         </state>
       </provider>
