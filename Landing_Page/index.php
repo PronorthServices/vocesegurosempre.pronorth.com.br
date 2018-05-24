@@ -754,7 +754,7 @@
 
                     curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
                     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                    curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"text\":\"Nome {$nome} - Telefone: {$telefone} - Email:{$email} - Mensagem: {$mensagem} - Interesse: {$tipo }\"}");
+                    curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"text\":\"Nome {$nome} - Telefone: {$telefone} - Email:{$email} - Mensagem: {$mensagem} - Interesse: {$tipo}\"}");
                     curl_setopt($ch, CURLOPT_POST, 1);
 
                     $headers = array();
