@@ -143,12 +143,12 @@ h1 {
 -------------------------------------------------- */
 .header-back {
   margin-top: 68px;
-
 }
 
 .header-back img{
    width: 100vw;
-   height: 48vh;
+   height: 340px;
+   object-fit: fill;
 }
 
 .header-back.two {
@@ -172,6 +172,18 @@ h1 {
 
 }
 
+@media (max-width: 474px) {
+  .header-back img{
+     width: 180vw;
+  }
+  
+  .header-back {
+    margin-top: 75px;
+
+  }
+}
+/*
+
 @media (max-height: 1024px){
   .header-back img{
      height: 35vh;
@@ -182,18 +194,10 @@ h1 {
      height: 50vh;
   }
 }
-@media (max-width: 474px) {
-  .header-back img{
-     width: 168vw;
-     height: 55vh;
-  }
-  
-  .header-back {
-    margin-top: 75px;
 
-  }
 
 }
+*/
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -364,6 +368,10 @@ h1 {
   display: block;
   border-radius: 50px;
   font-size: 30px;
+
+  -webkit-transition: 1s all;
+  -o-transition: 1s all;
+  transition: 1s all;
 }
 .social-icon a:hover {
   background: #00BFFF;
@@ -482,6 +490,9 @@ fieldset[disabled] .btn-primary.active {
 -------------------------------------------------- */
 @media (min-width: 768px) {
   /* Navbar positioning foo */
+  body{
+    overflow-x: hidden;
+  }
   .navbar-wrapper {
     margin-top: 20px;
   }
@@ -513,6 +524,9 @@ fieldset[disabled] .btn-primary.active {
   }
 }
 @media (max-width: 992px) {
+  body{
+    overflow-x: hidden;
+  }
   .carousel-image {
     display: none;
   }
