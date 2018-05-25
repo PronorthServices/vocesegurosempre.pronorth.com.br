@@ -14,6 +14,10 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- slick CSS -->
+    <link rel="stylesheet" href="css/plugins/slick/slick.css">
+    <link rel="stylesheet" href="css/plugins/slick/slick-theme.css">
+
     <!-- Animation CSS -->
     <link href="css/animate.min.css" rel="stylesheet">
 
@@ -132,7 +136,7 @@
                <ul class="list-unstyled">
                    <li class="pricing-title text-center header-cards-servicos">Residencial</li>
                    <li>
-                        <a href="#">
+                        <a  href="#para-residencias" class="page-scroll">
                             <img src="img/serv1.bmp" alt="Serviço Monitorado Residencial" class="image-cards-servicos img-responsive">
                         </a>
                    </li>
@@ -147,7 +151,7 @@
                <ul class="list-unstyled">
                    <li class="pricing-title text-center header-cards-servicos">Empresarial</li>
                    <li>
-                        <a href="#">
+                        <a  href="#para-empresas" class="page-scroll">
                             <img src="img/serv2.jpg" alt="Serviço Monitorado Empresarial" class="image-cards-servicos img-responsive">
                         </a>
                    </li>
@@ -190,10 +194,8 @@
         <div class="col-md-2 text-center wow fadeInLeft">
             
         </div>
-        <div class="col-lg-9 wow fadeIn" >
-                    <div class="ibox float-e-margins">
-                        
-                    </div>
+        <div class="col-lg-9 col-md-12 wow fadeIn" >
+                   
                         <div class="ibox-content wow bounceIn">
                             <div class="carousel slide" id="carousel2">
                                 <ol class="carousel-indicators">
@@ -242,15 +244,34 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a data-slide="prev" href="#carousel2" class="left carousel-control">
-                                    <span class="icon-prev"></span>
-                                </a>
-                                <a data-slide="next" href="#carousel2" class="right carousel-control">
-                                    <span class="icon-next"></span>
-                                </a>
+                                
                             </div>
+
                         </div>
+
                     </div>
+                </div>
+                <div class="row">
+                    <ul class="content-mini col-lg-11 col-lg-offset-1">
+                        <li data-slide-to="0" data-target="#carousel2" class="mini-produto">
+                            <img src="img/produto1.jpg" alt="thumb-produto" class="">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel2" class="mini-produto">
+                            <img src="img/produto2.jpg" alt="thumb-produto" class="">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel2" class="mini-produto">
+                            <img src="img/produto3.jpg" alt="thumb-produto" class="">
+                        </li>
+                        <li data-slide-to="3" data-target="#carousel2" class="mini-produto">
+                            <img src="img/produto4.jpg" alt="thumb-produto" class="">
+                        </li>
+                        <li data-slide-to="4" data-target="#carousel2" class="mini-produto">
+                            <img src="img/produto05.jpg" alt="thumb-produto" class="">
+                        </li>
+                        <li data-slide-to="5" data-target="#carousel2" class="mini-produto">
+                            <img src="img/produto06.jpg" alt="thumb-produto" class="">
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -258,7 +279,7 @@
         </div>
 <!-- Para residências -->
         <div class="row">
-            <div class="col-lg-12 text-center ">
+            <div id="para-residencias" class="col-lg-12 text-center ">
                 <div class="navy-line"></div>
                 <h1>Alarme Residêncial</h1>
                 <p></p>
@@ -266,21 +287,21 @@
         </div>
 
         <div class="row features-block">
-            <div class="col-lg-6 features-text wow fadeInLeft">
+            <div class="col-lg-6 features-text wow fadeInLeft ">
                 <h2>Para Residência</h2>
                 <p>Consulte um dos nossos especialistas em segurança para obter um diagnóstico em possíveis áreas de risco/invasões em seu patrimônio.</p>
                 <p>Temos a melhor solução em monitoramento residêncial, com isso, você terá a tranquilidade em suas viagens de lazer ou negócios.
                 Em sua casa de praia você nunca estará ausente, nosso alarme ira te avisar caso haja alguma tentativa de invasão.
                 Em sua casa de campo temos opções para que em sua ausência você possa monitorar e até visualizar seu imóvel ao vivo.</p>
             </div>
-            <div class="col-lg-6 imagens-equipamentos wow fadeInRight">
+            <div class="col-lg-6 imagens-equipamentos wow fadeInRight content-img-servicos">
                 <img src="img/residencial.jpg" alt="dashboard" class="img-responsive pull-right">
                 <small>Solicite uma visita de um Consultor de Segurança.</small>
             </div>
         </div>
 <!-- Para Empresas -->
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div  id="para-empresas" class="col-lg-12 text-center">
                 <div class="navy-line"></div>
                 <h1>Alarme Empresarial</h1>
                 <p></p>
@@ -288,11 +309,11 @@
         </div>
 
         <div class="row features-block">
-            <div class="col-lg-6 imagens-equipamentos wow fadeInRight">
+            <div class="col-lg-6 imagens-equipamentos wow fadeInRight content-img-servicos">
                 <img src="img/empresa.jpg" alt="Empresarial" class="img-responsive pull-right">
                 <small>Solicite uma visita de um Consultor de Segurança.</small>
             </div>
-            <div class="col-lg-6 features-text wow fadeInLeft">
+            <div  class="col-lg-6 features-text wow fadeInLeft">
                 <h2>Para Empresas</h2>
                 <p>Consulte um dos nossos especialistas em segurança para obter um diagnóstico em possíveis áreas de risco/invasões em seu patrimônio.</p>
                 <p>Para garantir cuidados extras a sua empresa, a ADT oferece um Plano de alarme empresarial que disponibiliza vantagens exclusivas quando você mais precisa. Com ADT Proteção Garantida, você dispõe de reparos aos danos causados por invasão ou tentativa de invasão. Caso seja impossível realizar os reparos imediatamente, um vigilante permanecerá no local até que os ajustem sejam finalizados. Além disso, o serviço também dá o direito de uma cobertura de até R$ 7.500,00 ou R$ 15.000,00 conforme o plano escolhido para mercadorias ou equipamentos roubados.</p>
@@ -454,23 +475,54 @@
                 <h1>
                     O que dizem nossos clientes
                 </h1>
-                <div class="ibox">
-                    <div class="slick_demo_1">
-                                <div class="testimonials-text ">
-                                    <i>"Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
-                                    Fui prontamente atendida, com projeto e serviço de extrema qualidade e acabamento perfeito.
-                                    Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
-                                    O alarme que era meu ponto de preocupação por já ter tido problema com outra empresa, também me atende perfeitamente bem, sem disparos falsos ou outros tipos de inconvenientes."</i>
-                                </div>                        
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="ibox">
+                            <div class="slick_demo_1">
+                                <div>
+                                    <div class="ibox-content comentarios ">
+                                        <i>
+                                            "Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
+                                            Fui prontamente atendida, com projeto e serviço de extrema qualidade e acabamento perfeito.
+                                            Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
+                                            O alarme que era meu ponto de preocupação por já ter tido problema com outra empresa, também me atende perfeitamente bem, sem disparos falsos ou outros tipos de inconvenientes."
+                                        </i>
+                                        <br>
+                                        <small>
+                                            <strong class="destaque">16.04.2018 - Antonio Sanchez</strong>
+                                        </small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="ibox-content comentarios ">
+                                        <i>
+                                            "O sistema funciona muito bem, é moderno e tecnologia super avançada. O aplicativo que uso para acessar as informações e imagens é muito bom e fácil de usar, super recomendo ADT"
+                                        </i>
+                                        <br>
+                                        <small>
+                                            <strong class="destaque">12.02.2018 - Andy Smith</strong>
+                                        </small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="ibox-content comentarios ">
+                                        <i>
+                                            A ADT, empresa no segmento de segurança eletrônica, nos atende com responsabilidade, agilidade e respeito.Recomendamos sempre.Pontualidade e qualidade na execução dos serviços.”
+
+                                        </i>
+                                        <br>
+                                        <small>
+                                            <strong class="destaque">22.05.2018 - Rogerio Borges – Diretor</strong>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <small>
-                    <strong class="destaque">12.02.2018 - Andy Smith</strong>
-                </small>
             </div>
         </div>
     </div>
-
 </section>
 <!--<section class="comments gray-section" style="margin-top: 0">
     <div class="container">
@@ -726,59 +778,50 @@
             </div>
         </div>
         <div class="row">
-
             <?php
-            if(count($_POST) > 0 ){
-                $nome = $_POST["nome"];
-                $telefone = $_POST["telefone"];
-                $email = $_POST["email"];
-                $tipo = $_POST["servico"];
-                $mensagem = $_POST["mensagem"];
-
-                try {
-                    $pdo = new PDO('mysql:host=centraldoslead.mysql.dbaas.com.br;dbname=centraldoslead',"centraldoslead", "julio10");
-                    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-                    $stmt = $pdo->prepare('INSERT INTO adt_leads(name, phone, email, message, service, date_created) VALUES(:nome,:telefone,:email,:mensagem, :servico, :date)');
-
-                    $stmt->execute(array(
-                        ':nome' => $nome,
-                        ':telefone' => $telefone,
-                        ':email' => $email,
-                        ':mensagem' => $mensagem,
-                        ':servico' => $tipo,
-                        ':date' => date('Y-m-d H:i:s')
-                    ));
-
-                    $ch = curl_init();
-
-                    curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
-                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                    curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"text\":\"Nome {$nome} - Telefone: {$telefone} - Email:{$email} - Mensagem: {$mensagem} - Interesse: {$tipo}\"}");
-                    curl_setopt($ch, CURLOPT_POST, 1);
-
-                    $headers = array();
-                    $headers[] = "Content-Type: application/x-www-form-urlencoded";
-                    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-
-                    $result = curl_exec($ch);
-                    if (curl_errno($ch)) {
-                        echo 'Error:' . curl_error($ch);
-                    }
-                    curl_close ($ch);
-
-                    echo "<center>Contato Enviado com sucesso</center>";
-                } catch(PDOException $e) {
-                    echo "Ops! Erro ao processar sua solicitação.";
-                }
-            }
-            ?>
+                       if(count($_POST) > 0 ){
+                           $nome = $_POST["nome"];
+                           $telefone = $_POST["telefone"];
+                           $email = $_POST["email"];
+                           $tipo = $_POST["servico"];
+                           $mensagem = $_POST["mensagem"];
+                           try {
+                               $pdo = new PDO('mysql:host=centraldoslead.mysql.dbaas.com.br;dbname=centraldoslead',"centraldoslead", "julio10");
+                               $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                               $stmt = $pdo->prepare('INSERT INTO adt_leads(name, phone, email, message, service, date_created) VALUES(:nome,:telefone,:email,:mensagem, :servico, :date)');
+                               $stmt->execute(array(
+                                   ':nome' => $nome,
+                                   ':telefone' => $telefone,
+                                   ':email' => $email,
+                                   ':mensagem' => $mensagem,
+                                   ':servico' => $tipo,
+                                   ':date' => date('Y-m-d H:i:s')
+                               ));
+                               $ch = curl_init();
+                               curl_setopt($ch, CURLOPT_URL, 'https://hooks.slack.com/services/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');
+                               curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                               curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"text\":\"Nome {$nome} - Telefone: {$telefone} - Email:{$email} - Mensagem: {$mensagem} - Interesse: {$tipo}\"}");
+                               curl_setopt($ch, CURLOPT_POST, 1);
+                               $headers = array();
+                               $headers[] = "Content-Type: application/x-www-form-urlencoded";
+                               curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+                               $result = curl_exec($ch);
+                               if (curl_errno($ch)) {
+                                   echo 'Error:' . curl_error($ch);
+                               }
+                               curl_close ($ch);
+                               echo "<center>Contato Enviado com sucesso</center>";
+                           } catch(PDOException $e) {
+                               echo "Ops! Erro ao processar sua solicitação.";
+                           }
+                       }
+                       ?>
 
             <div class="formulario col-md-5 wow fadeInUp">
                 <h3>Entre em contato e solicite um orçamento.</h3>
                 <br>
                 <div class="form-group">
-                    <form action="#" method="post">
+                    <form action="#">
                         <div class="input-group col-md-8">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                             <input id="nome" type="text" class="form-control" name="nome" placeholder="Nome">
@@ -791,12 +834,12 @@
                         <br>
                         <div class="input-group col-md-7">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                            <input id="email" type="email" class="form-control" name="email" placeholder="email@.com.br">
+                            <input id="email" type="email" class="form-control" name="Email" placeholder="email@.com.br">
                         </div>
                         <br>
                         <div class="tipo-servico">
                             <label for="sel1">Selecione o tipo de serviço</label>
-                            <select name="servico" class="form-control" id="tp-servico">
+                            <select name="tp-servico" class="form-control" id="tp-servico">
                                 <option value="residencial">Para Residência</option>
                                 <option value="empresarial">Para Empresa</option>
                             </select>
@@ -804,11 +847,11 @@
                         <br>
                          <div class="form-group">
                           <label for="mensagem">Mensagem:</label>
-                          <textarea class="form-control" rows="5" name="mensagem" id="mensagem"></textarea>
+                          <textarea class="form-control" rows="5" id="mensagem"></textarea>
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary bt">Enviar</button>
+                            <button type="button" class="btn btn-primary bt">Enviar</button>
                         </div>
     
                     </form>
@@ -847,13 +890,16 @@
 <script src="js/cbpAnimatedHeader.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/inspinia.js"></script>
+<script src="js/slick.js"></script>
 
 <!-- Slick carousel-->
 <script src="js/plugins/slick/slick.min.js"></script>
 
 <script>
     $(document).ready(function(){
-
+        $('.slick_demo_1').slick({
+                dots: true
+        });
     });
 </script>
 
