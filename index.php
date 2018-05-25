@@ -4,16 +4,8 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"  lang="pt-br"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
 
-<!-- Mirrored from alarmemonitorado.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 28 Apr 2018 16:28:56 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5L7RM7M');</script>
-	<!-- End Google Tag Manager -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<base  />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -274,26 +266,20 @@ tel"  >
 		<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:450px;direction:ltr;">
 			<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:450px;height:450px;">
 				<ul>
-
 					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
-
-						<img src="http://alarmemonitorado.com/images/Demo/slider2/banner-001.jpg" alt="" />
-
+						<img src="img/banner-000001.jpg" alt="" />
 					</li>
 
 					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
-
-						<img src="http://alarmemonitorado.com/images/banner_empresarial2.jpg" alt="" />
-
+						<img src="img/banner_empresarial2.jpg" alt="" />
 					</li>
 
 					<li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
-
-						<img src="http://alarmemonitorado.com/images/banner_6.jpg" alt="" />
-
+						<img src="img/banner_6.jpg" alt="" />
 					</li>
 				</ul>
-				<div class="tp-bannertimer tp-bottom"></div>					</div>
+				<div class="tp-bannertimer tp-bottom"></div>
+            </div>
 		</div>
 
 		<script type="text/javascript">
@@ -373,7 +359,8 @@ tel"  >
 							<div class="sprocket-mosaic-item" data-mosaic-content>
 								<div style="display: none;" data-mosaic-order-title="Alarme Monitorado Residencial" data-mosaic-order-date=""></div>		<div class="sprocket-padding">
 								<div class="sprocket-mosaic-image-container">
-									<a href="servicos/alarme-residencial.php">				<img src="http://alarmemonitorado.com/images/banners/imagem003.bmp" alt="" class="sprocket-mosaic-image" />
+									<a href="servicos/alarme-residencial.php">
+                                        <img src="img/imagem003.bmp" alt="" class="sprocket-mosaic-image" />
 										<span class="sprocket-mosaic-hover"></span>
 										<span class="sprocket-mosaic-hovercontent"></span>
 									</a>
@@ -381,7 +368,8 @@ tel"  >
 
 								<div class="sprocket-mosaic-head">
 									<h2 class="sprocket-mosaic-title">
-										<a href="servicos/alarme-residencial.php">						Alarme Monitorado Residencial					</a>				</h2>
+										<a href="servicos/alarme-residencial.php">
+                                            Alarme Monitorado Residencial					</a>				</h2>
 
 								</div>
 
@@ -397,7 +385,8 @@ tel"  >
 							<div class="sprocket-mosaic-item" data-mosaic-content>
 								<div style="display: none;" data-mosaic-order-title="Alarme Monitorado Empresarial" data-mosaic-order-date=""></div>		<div class="sprocket-padding">
 								<div class="sprocket-mosaic-image-container">
-									<a href="servicos/alarme-para-empresa.php">				<img src="http://alarmemonitorado.com/images/banners/empresarial2.jpg" alt="" class="sprocket-mosaic-image" />
+									<a href="servicos/alarme-para-empresa.php">
+                                        <img src="img/empresarial2.jpg" alt="" class="sprocket-mosaic-image" />
 										<span class="sprocket-mosaic-hover"></span>
 										<span class="sprocket-mosaic-hovercontent"></span>
 									</a>
@@ -421,7 +410,8 @@ tel"  >
 							<div class="sprocket-mosaic-item" data-mosaic-content>
 								<div style="display: none;" data-mosaic-order-title="Alarme Monitorado e Serviços" data-mosaic-order-date=""></div>		<div class="sprocket-padding">
 								<div class="sprocket-mosaic-image-container">
-									<a href="servicos.php">				<img src="http://alarmemonitorado.com/images/tumb_servico.jpg" alt="" class="sprocket-mosaic-image" />
+									<a href="servicos.php">
+                                        <img src="img/tumb_servico.jpg" alt="" class="sprocket-mosaic-image" />
 										<span class="sprocket-mosaic-hover"></span>
 										<span class="sprocket-mosaic-hovercontent"></span>
 									</a>
@@ -479,7 +469,7 @@ tel"  >
 						<span style="font-size: 18pt;"><span style="text-align: justify; color: #555;">O poder da Placa Azul</span> </span></h2>
 
 					<p>
-						<img alt="" height="94" src="http://alarmemonitorado.com/images/Adt.jpg" style="color: #000000; font-size: 11px; margin-left: 25px; float: right;" width="234" /></p>
+						<img alt="" height="94" src="img/Adt.jpg" style="color: #000000; font-size: 11px; margin-left: 25px; float: right;" width="234" /></p>
 
 					<p>
 						A ADT &eacute; a pioneira, l&iacute;der mundial em Alarme Monitorado 24 horas.</p>
