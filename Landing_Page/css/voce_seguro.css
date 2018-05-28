@@ -211,6 +211,17 @@
  	color: #00FFFF;
  }
 
+ @media (max-width: 767px){
+	.slick-prev{
+		left: -10px;
+	}
+	.slick-next{
+		right: -10px;
+	}
+}
+
+
+
  /* ----------- Section Contato ------------*/
 
 .destaque{
@@ -224,12 +235,15 @@
 .formulario{
 	border-radius: 6px;
 	box-shadow:  0px 0px 0px 0px #ccc;
-}
-.formulario:hover{
-	box-shadow:  3px 3px 23px 3px #ccc;
 	-webkit-transition: 1s all;
 	-o-transition: 1s all;
 	transition: 1s all;
+}
+.formulario:hover{
+	box-shadow:  3px 3px 23px 3px #ccc;
+	-webkit-transition: 1s box-shadow ease-in-out;
+	-o-transition: 1s box-shadow ease-in-out;
+	transition: 1s box-shadow ease-in-out;
 }
 
 .mapas{
