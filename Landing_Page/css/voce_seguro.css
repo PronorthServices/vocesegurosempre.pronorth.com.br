@@ -211,6 +211,17 @@
  	color: #00FFFF;
  }
 
+ @media (max-width: 767px){
+	.slick-prev{
+		left: -10px;
+	}
+	.slick-next{
+		right: -10px;
+	}
+}
+
+
+
  /* ----------- Section Contato ------------*/
 
 .destaque{
