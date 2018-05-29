@@ -821,7 +821,7 @@
                 <h3>Entre em contato e solicite um orçamento.</h3>
                 <br>
                 <div class="form-group">
-                    <form action="#">
+                    <form action="#" method="post">
                         <div class="input-group col-md-8">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                             <input id="nome" type="text" class="form-control" name="nome" placeholder="Nome">
@@ -839,7 +839,7 @@
                         <br>
                         <div class="tipo-servico">
                             <label for="sel1">Selecione o tipo de serviço</label>
-                            <select name="tp-servico" class="form-control" id="tp-servico">
+                            <select name="servico" class="form-control" id="tp-servico">
                                 <option value="residencial">Para Residência</option>
                                 <option value="empresarial">Para Empresa</option>
                             </select>
@@ -847,11 +847,11 @@
                         <br>
                          <div class="form-group">
                           <label for="mensagem">Mensagem:</label>
-                          <textarea class="form-control" rows="5" id="mensagem"></textarea>
+                          <textarea class="form-control" name="mensagem " rows="5" id="mensagem"></textarea>
                         </div>
 
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary bt">Enviar</button>
+                            <button type="submit" class="btn btn-primary bt">Enviar</button>
                         </div>
     
                     </form>
