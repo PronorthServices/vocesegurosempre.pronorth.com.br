@@ -4,10 +4,66 @@
 	box-shadow:  1px 2px 4px -1px #ccc;
 }
 
+.caption{
+	width: 40%;
+	padding: 5px 10px;
+	
+}
+
+strong{
+	text-transform: uppercase;
+	color: #00008B;
+}
+
+.one,.two,.tree{
+	margin-bottom: 45px;
+}
+
+.one{
+	border: 4px solid #708090;
+	border-radius: 3px;
+	width: 549px;
+	padding: 5px;
+	color: #005dab;
+	font-size: 40px;
+}
+
+
+.two{
+	color: #505050;
+	font-weight: 600;
+	font-size: 37px;
+	width: 560px;
+
+}
+.tree{
+	background-color: #505050;
+	padding: 5px;
+	font-size: 24px;
+	width: 570px;
+	color: #fff;
+	border-radius: 5px;
+}
+
 .logo img{
 	width: 250px;
 }
 @media (max-width: 991px){
+	.caption{
+		width: 50%;
+	}
+	.one{
+		width: 470px;
+		font-size: 38px;
+	}
+	.two{
+		font-size: 35px;
+	}
+	.tree{
+		margin-top: 70px;
+	}
+
+
 	.logo img{
 		width: 200px;
 	}
@@ -16,9 +72,51 @@
 	}
 }
 
+@media (max-width: 767px){
+	.caption{
+		width: 60%;
+	}
+	.one{
+		width: 450px;
+		font-size: 36px;
+	}
+	.two{
+		font-size: 35px;
+		width: 500px;
+	}
+	.tree{
+		font-size: 18px;
+		width: 425px;
+		margin-top: 80px;
+	}
+}
+
+
 @media (max-width: 474px){
 	.logo img{
 		width: 180px;
+	}
+
+	.caption{
+		background: ;
+		width: 40%;
+	}
+	.one,.two,.tree{
+		margin-bottom: 30px;
+	}
+
+	.one{
+		width: 200px;
+		font-size: 25px;
+	}
+	.two{
+		font-size: 20px;
+		width: 180px;
+	}
+	.tree{
+		font-size: 14px;
+		width: 200px;
+		margin-top: 40px;
 	}
 }
 

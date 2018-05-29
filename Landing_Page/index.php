@@ -90,8 +90,12 @@
             </div>
             <!-- Set background for slide in css -->
             <div class="header-back">
-                <div class="slide">
-                    <img src="img/slide001.jpg" alt="" class="img-responsive">
+                <div class="caption">
+                    <p class="one">
+                        Proteja <strong>tudo</strong> que é mais <strong>importante</strong> para <strong>Você</strong> 
+                    </p>
+                    <h2 class="two">Por apenas R$ 3,50 por dia*</h2>
+                    <h3 class="tree">Alarme monitorado 24 Horas / 7 dias por semana</h3>
                 </div>
             </div>
 

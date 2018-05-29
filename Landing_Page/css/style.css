@@ -142,17 +142,20 @@ h1 {
 }
 /* BACKGROUNDS SLIDER
 -------------------------------------------------- */
-.header-back {
+.header-back{
   margin-top: 68px;
-  max-width: 100vw;
+  width: 100%;
   height: 340px;
-  background-color: #cc8211; 
+  background-image: url('../img/slide-header.jpg'); 
+  background-size: cover;
+  padding: 20px 10px;
+  object-fit: cover;
 }
 
 .header-back .slide img{
    width: 100vw;
    height: 340px;
-   object-fit: fill;
+   object-fit: cover;
 }
 
 .header-back.two {
@@ -166,6 +169,7 @@ h1 {
 
 @media (max-width: 768px) {
   .header-back img{
+    width: 160vw;
      
   }
 
@@ -183,6 +187,7 @@ h1 {
   
   .header-back {
     margin-top: 75px;
+    background-position-x: -300px; 
 
   }
 }
