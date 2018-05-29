@@ -90,7 +90,7 @@
             </div>
             <!-- Set background for slide in css -->
             <div class="header-back">
-                <div class="caption">
+                <div class="caption wow zoomIn">
                     <p class="one">
                         Proteja <strong>tudo</strong> que é mais <strong>importante</strong> para <strong>Você</strong> 
                     </p>
@@ -100,6 +100,7 @@
             </div>
 
         </div>
+        <a href="#scroll-form"><div class="header-modal wow zoomIn">Solicite um orçamento.</div></a>
         <!--
         <div class="item">
             <div class="container">
@@ -460,7 +461,7 @@
                 <p class="text-color">
                     <strong><span class="navy">O poder da Placa Azul</span></strong><br/>
         
-                    <p  class="desc">A <span class="destaque">ADT</span> é a pioneira, líder mundial em Alarme Monitorado 24 horas.</p>
+                    <p  id="scroll-form" class="desc">A <span class="destaque">ADT</span> é a pioneira, líder mundial em Alarme Monitorado 24 horas.</p>
 
                     A empresa ADT pertence ao grupo Johnson e Controls que se fundiu com a Tyco em Jan/2017 e fortaleceu ainda mais sua presença global em monitoramento de alarmes.
                     A Tyco é uma empresa global, provedora de soluções de segurança eletrônica e proteção contra incêndio para mais de 3 milhões de clientes pelo mundo.
@@ -511,7 +512,7 @@
             <div class="formulario col-md-5 wow fadeInUp">
                 <h3>Entre em contato e solicite um orçamento.</h3>
                 <br>
-                <div class="form-group">
+                <div id="formulario" class="form-group">
                     <form action="#">
                         <div class="input-group col-md-8">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -615,7 +616,13 @@
                         $('.collapse').removeClass('in');
                     }
                 });
-            });//Função fecha menu com click em qualquer parte do site
+    });//Função fecha menu com click em qualquer parte do site
+
+    $(function(){
+        $('#open').click(function(){
+            document.getElementById("nome").select();
+        });
+    });
 </script>
 
 

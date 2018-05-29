@@ -193,7 +193,29 @@ strong{
 	  }
 }
 
+/* ----------- Modal solicitacao ------------ */
+.header-modal{
+	background-color:rgba(30,144,255);
+	padding: 10px;
+	color: #fff;
+	position: fixed;
+	right: -78px;
+	z-index: 1030;
 
+	border-radius: 5px 5px 0 0;
+	font-size: 16px;
+	font-weight: 600;
+	text-shadow: 2px 3px 3px #008B8B;
+
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.header-modal:hover{
+	background-color: rgba(0,255,255);
+}
 
 /* ----------- Section Serviços ------------ */
 #servicos{
