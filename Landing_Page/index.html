@@ -46,7 +46,14 @@
 
                    
                     <a class="navbar-brand logo col-lg-12 col-sm-6" href="#"><img src="img/logo.jpg"></a>
+
                 </div>
+                <a class="toogle" href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right menu">
                         <li><a class="page-scroll" href="#page-top">Home</a></li>
@@ -56,12 +63,9 @@
                         <li><a class="page-scroll" href="#quem-somos">Quem somos</a></li>
                         <li><a class="page-scroll" href="#contact">Contato</a></li>
                     </ul>
+                    
                 </div>
-                <a class="toogle" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                </a>
+                
             </div>
         </nav>
 </div>
@@ -91,7 +95,7 @@
             -->
             </div>
             <!-- Set background for slide in css -->
-            <div class="header-back"><img src="img/slide001.jpg" alt=""></div>
+            <div class="header-back"></div>
 
         </div>
         <!--
@@ -864,6 +868,24 @@
                 dots: true
         });
     });
+
+    $(function(){
+        $('.toogle').click(function(){
+            $('.toogle').toggleClass('ativo');
+            $('.collapse').toggleClass('in');
+        });//Função ativa o menu responsivo
+
+
+    });
+
+    $(function(){
+                $('section, footer, .page-scroll').click(function(){
+                    if($('.toogle.ativo') && $('.collapse.in')){
+                        $('.toogle').removeClass('ativo');
+                        $('.collapse').removeClass('in');
+                    }
+                });
+            });//Função fecha menu com click em qualquer parte do site
 </script>
 
 

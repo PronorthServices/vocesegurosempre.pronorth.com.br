@@ -43,14 +43,14 @@
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    
                     <a class="navbar-brand logo col-lg-12 col-sm-6" href="#"><img src="img/logo.jpg"></a>
                 </div>
+                <a class="toogle" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right menu">
                         <li><a class="page-scroll" href="#page-top">Home</a></li>
@@ -594,6 +594,24 @@
                 dots: true
         });
     });
+
+    $(function(){
+        $('.toogle').click(function(){
+            $('.toogle').toggleClass('ativo');
+            $('.collapse').toggleClass('in');
+        });//Função ativa o menu responsivo
+
+
+    });
+
+    $(function(){
+                $('section, footer, .page-scroll').click(function(){
+                    if($('.toogle.ativo') && $('.collapse.in')){
+                        $('.toogle').removeClass('ativo');
+                        $('.collapse').removeClass('in');
+                    }
+                });
+            });//Função fecha menu com click em qualquer parte do site
 </script>
 
 
