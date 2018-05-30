@@ -10,6 +10,7 @@ body{
   color: #676a6c;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   overflow-x: hidden;
+  margin-top: 39px;
   
 }
 span.navy {
@@ -172,7 +173,6 @@ h1 {
     width: 160vw;
      
   }
-
   .header-back {
     margin-top: 75px;
 
@@ -187,7 +187,7 @@ h1 {
   
   .header-back {
     margin-top: 75px;
-    background-position-x: -300px; 
+    background-position-x: -419px;
 
   }
 }

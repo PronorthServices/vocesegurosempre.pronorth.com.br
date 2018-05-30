@@ -21,7 +21,8 @@
     <!-- Animation CSS -->
     <link href="css/animate.min.css" rel="stylesheet">
 
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -40,6 +41,9 @@
 </head>
 <body id="page-top">
 <div class="navbar-wrapper">
+        <div class="televendas ">
+            <h4>Agende uma visita com nosso consultor de segurança | <strong class="numero-agenda">(11) 4841-2677</strong></h4>
+        </div>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
@@ -57,7 +61,7 @@
                         <li><a class="page-scroll" href="#servicos">Serviços</a></li>
                         <li><a class="page-scroll" href="#equipamentos">Equipamentos</a></li>
                         <li><a class="page-scroll" href="#quem-somos">Quem somos</a></li>
-                        <li><a class="page-scroll" href="#contact">Contato</a></li>
+                        <li><a class="page-scroll" href="#scroll-form">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -100,6 +104,15 @@
             </div>
 
         </div>
+        <a href="">
+            <div class="cont">
+                <a href="https://api.whatsapp.com/send?phone=551148412677" target="_blank">
+                    <img src="img/whats1.png" alt="Fale com direto conosco" class="icone">
+                    <span class="fone">Nos contate pelo whatsapp</span>
+                </a>
+            </div>
+            
+        </a>
         <a href="#scroll-form"><div class="header-modal wow zoomIn">Solicite um orçamento.</div></a>
         <!--
         <div class="item">
@@ -140,8 +153,8 @@
             </div>
         </div>
         <div class="row">
-           <div class="col-sm-4 col-xs-7 cards-servicos ">
-               <ul class="list-unstyled">
+           <div class=" cards-servicos">
+               <ul class="list-unstyled col-sm-4 col-xs-8">
                    <li class="pricing-title text-center header-cards-servicos">Residencial</li>
                    <li>
                         <a  href="#para-residencias" class="page-scroll">
@@ -155,8 +168,8 @@
                    </li>
                </ul>
            </div>
-           <div class="col-sm-4 col-xs-7 cards-servicos">
-               <ul class="list-unstyled">
+           <div class=" cards-servicos">
+               <ul class="list-unstyled col-sm-4 col-xs-8 ">
                    <li class="pricing-title text-center header-cards-servicos">Empresarial</li>
                    <li>
                         <a  href="#para-empresas" class="page-scroll">
@@ -171,8 +184,8 @@
 
                </ul>
            </div>
-           <div class="col-sm-4 col-xs-7 cards-servicos ">
-               <ul class="list-unstyled">
+           <div class=" cards-servicos ">
+               <ul class="list-unstyled col-sm-4 col-xs-8">
                    <li class="pricing-title text-center header-cards-servicos">Serviços</li>
                    <li>
                         <a href="#">
@@ -197,11 +210,13 @@
             <h1>Equipamentos<br/></h1>
         </div>
     </div>
+
+    
     <div class="row">
-        <div class="col-md-2 text-center ">
+        <div class="col-lg-2 col-md-3 text-center ">
             
         </div>
-        <div class="col-lg-9 col-md-12 wow pulse " >
+        <div class="col-lg-7 col-md-12 col-sm-10 col-xs-7 wow pulse box-carousel" >
                    
                         <div class="ibox-content ">
                             <div class="carousel slide" id="carousel2">
@@ -282,7 +297,7 @@
                 </div>
 
             </div>
-        <div class="col-md-2 text-center ">
+        <div class="col-lg-2 -col-md-3 text-center ">
         </div>
 <!-- Para residências -->
         <div class="row">
