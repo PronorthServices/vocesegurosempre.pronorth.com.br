@@ -43,14 +43,14 @@
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    
                     <a class="navbar-brand logo col-lg-12 col-sm-6" href="#"><img src="img/logo.jpg"></a>
                 </div>
+                <a class="toogle" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right menu">
                         <li><a class="page-scroll" href="#page-top">Home</a></li>
@@ -90,12 +90,17 @@
             </div>
             <!-- Set background for slide in css -->
             <div class="header-back">
-                <div class="slide">
-                    <img src="img/slide001.jpg" alt="" class="img-responsive">
+                <div class="caption wow zoomIn">
+                    <p class="one">
+                        Proteja <strong>tudo</strong> que é mais <strong>importante</strong> para <strong>Você</strong> 
+                    </p>
+                    <h2 class="two">Por apenas R$ 3,50 por dia*</h2>
+                    <h3 class="tree">Alarme monitorado 24 Horas / 7 dias por semana</h3>
                 </div>
             </div>
 
         </div>
+        <a href="#scroll-form"><div class="header-modal wow zoomIn">Solicite um orçamento.</div></a>
         <!--
         <div class="item">
             <div class="container">
@@ -289,16 +294,16 @@
         </div>
 
         <div class="row features-block">
+            <div class="col-lg-6 imagens-equipamentos content-img-servicos wow fadeInLeft">
+                <img src="img/residencial.jpg" alt="dashboard" class="img-responsive pull-right ">
+                <small>Solicite uma visita de um Consultor de Segurança.</small>
+            </div>
             <div class="col-lg-6 features-text wow pulse">
                 <h2>Para Residência</h2>
                 <p>Consulte um dos nossos especialistas em segurança para obter um diagnóstico em possíveis áreas de risco/invasões em seu patrimônio.</p>
                 <p>Temos a melhor solução em monitoramento residêncial, com isso, você terá a tranquilidade em suas viagens de lazer ou negócios.
                 Em sua casa de praia você nunca estará ausente, nosso alarme ira te avisar caso haja alguma tentativa de invasão.
                 Em sua casa de campo temos opções para que em sua ausência você possa monitorar e até visualizar seu imóvel ao vivo.</p>
-            </div>
-            <div class="col-lg-6 imagens-equipamentos content-img-servicos wow fadeInLeft">
-                <img src="img/residencial.jpg" alt="dashboard" class="img-responsive pull-right ">
-                <small>Solicite uma visita de um Consultor de Segurança.</small>
             </div>
         </div>
 <!-- Para Empresas -->
@@ -456,7 +461,7 @@
                 <p class="text-color">
                     <strong><span class="navy">O poder da Placa Azul</span></strong><br/>
         
-                    <p  class="desc">A <span class="destaque">ADT</span> é a pioneira, líder mundial em Alarme Monitorado 24 horas.</p>
+                    <p  id="scroll-form" class="desc">A <span class="destaque">ADT</span> é a pioneira, líder mundial em Alarme Monitorado 24 horas.</p>
 
                     A empresa ADT pertence ao grupo Johnson e Controls que se fundiu com a Tyco em Jan/2017 e fortaleceu ainda mais sua presença global em monitoramento de alarmes.
                     A Tyco é uma empresa global, provedora de soluções de segurança eletrônica e proteção contra incêndio para mais de 3 milhões de clientes pelo mundo.
@@ -507,7 +512,7 @@
             <div class="formulario col-md-5 wow fadeInUp">
                 <h3>Entre em contato e solicite um orçamento.</h3>
                 <br>
-                <div class="form-group">
+                <div id="formulario" class="form-group">
                     <form action="#">
                         <div class="input-group col-md-8">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -592,6 +597,30 @@
     $(document).ready(function(){
         $('.slick_demo_1').slick({
                 dots: true
+        });
+    });
+
+    $(function(){
+        $('.toogle').click(function(){
+            $('.toogle').toggleClass('ativo');
+            $('.collapse').toggleClass('in');
+        });//Função ativa o menu responsivo
+
+
+    });
+
+    $(function(){
+                $('section, footer, .page-scroll').click(function(){
+                    if($('.toogle.ativo') && $('.collapse.in')){
+                        $('.toogle').removeClass('ativo');
+                        $('.collapse').removeClass('in');
+                    }
+                });
+    });//Função fecha menu com click em qualquer parte do site
+
+    $(function(){
+        $('#open').click(function(){
+            document.getElementById("nome").select();
         });
     });
 </script>
