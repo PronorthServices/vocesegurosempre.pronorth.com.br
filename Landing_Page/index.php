@@ -521,7 +521,7 @@
                         <br>
                         <div class="input-group col-md-7">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                            <input id="email" type="email" class="form-control" name="Email" placeholder="email@.com.br">
+                            <input id="email" type="email" class="form-control" name="email" placeholder="email@.com.br">
                         </div>
                         <br>
                         <div class="tipo-servico">
@@ -534,7 +534,7 @@
                         <br>
                          <div class="form-group">
                           <label for="mensagem">Mensagem:</label>
-                          <textarea class="form-control" name="mensagem " rows="5" id="mensagem"></textarea>
+                          <textarea class="form-control" name="mensagem" rows="5" id="mensagem"></textarea>
                         </div>
 
                         <div class="form-group">
