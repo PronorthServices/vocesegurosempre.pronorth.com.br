@@ -302,6 +302,20 @@ h1 {
   text-decoration: none;
   color: inherit;
 }
+
+@media(max-width: 767px){
+  
+}
+@media(max-width: 474px){
+  .carousel-inner > .item > img {
+    min-width: 101%;
+    height: 245px;
+}
+
+  .carousel{
+    height: 260px;
+  }
+}
 /* Sections
 ------------------------- */
 .services {
