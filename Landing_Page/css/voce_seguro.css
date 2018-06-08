@@ -12,6 +12,7 @@
 	padding: 5px 20px;	
 }
 
+
 .numero-agenda{
 	color: #fff;
 }
@@ -108,6 +109,7 @@ strong{
 	.two{
 		font-size: 35px;
 		width: 500px;
+
 	}
 	.tree{
 		font-size: 18px;
@@ -118,9 +120,16 @@ strong{
 
 
 @media (max-width: 474px){
+	.televendas{
+		padding-top: 12px;
+	}
 	.televendas h4{
-		font-size: 12px;
+		font-size: 16px;
 		padding: 0px 20px;
+		text-align: center;
+	}
+	.titulo-visita{
+		display: none;
 	}
 	.logo img{
 		width: 180px;
@@ -141,6 +150,8 @@ strong{
 	.two{
 		font-size: 20px;
 		width: 180px;
+		background-color: rgba(239, 237, 240,.8);
+		border-radius: 3px; 
 	}
 	.tree{
 		font-size: 14px;
@@ -362,6 +373,31 @@ strong{
 .imagens-equipamentos{
 	margin-top: 50px;
 }
+.desc-produtos{
+	display: none;
+}
+
+@media(max-width: 767px){
+	.desc-produtos{
+		display: block;
+		box-shadow: none;
+		margin-top: 30px;
+	}
+	.item1, .item2, .item3, .item4, .item5, .item6{
+		display: none;
+	}
+
+	.item1.active, .item2.active, .item3.active, .item4.active, .item5.active, .item6.active{
+		display: block;
+
+	}
+	.item1 p, .item2 p, .item3 p, .item4 p, .item5 p, .item6 p{
+		color: #736969;
+		font-size: 17px;
+		padding: 7px;
+	}
+
+}
 
 
 /*------------- carousel -------------*/
@@ -376,6 +412,7 @@ strong{
     overflow: hidden;
     margin-top: 50px;
     box-shadow:  3px 3px 10px 3px #ccc;
+    height: 320px;
 }
 
 .ibox-content {
@@ -432,16 +469,24 @@ strong{
 
 }
 @media (max-width: 1280px){
-	.box-carousel.col-lg-7{
-		width: 550px;
-		margin-left: 60px;
-	}
+	
 }
 @media (max-width: 767px){
 	.carousel-caption{
 		display: none;
 	}
+	.carousel-inner{
+		margin-left: 66px;
+		width: 80%;
+	}
 
+}
+
+@media(max-width: 474px){
+	.carousel-inner{
+		margin-left: 0px;
+		width: 100%;
+	}
 }
 
 /* ----------- Section Quem Somos ------------*/
