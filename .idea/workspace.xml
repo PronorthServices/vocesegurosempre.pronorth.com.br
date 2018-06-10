@@ -28,15 +28,15 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Landing_Page/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2527">
-              <caret line="712" column="7" lean-forward="false" selection-start-line="712" selection-start-column="7" selection-end-line="712" selection-end-column="7" />
+            <state relative-caret-position="549">
+              <caret line="600" column="27" lean-forward="false" selection-start-line="600" selection-start-column="27" selection-end-line="600" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#32955#32961#0#HTML" expanded="true" />
-                <element signature="e#33060#33068#0#HTML" expanded="true" />
-                <element signature="e#33141#33149#0#HTML" expanded="true" />
-                <element signature="e#33178#33186#0#HTML" expanded="true" />
-                <marker date="1528636883869" expanded="true" signature="27814:27945" ph="INSERT INTO adt_leads... " />
+                <element signature="e#32982#32988#0#HTML" expanded="true" />
+                <element signature="e#33087#33095#0#HTML" expanded="true" />
+                <element signature="e#33168#33176#0#HTML" expanded="true" />
+                <element signature="e#33205#33213#0#HTML" expanded="true" />
+                <marker date="1528636954991" expanded="true" signature="27814:27945" ph="INSERT INTO adt_leads... " />
               </folding>
             </state>
           </provider>
@@ -207,7 +207,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38003000" />
+    <option name="totallyTimeSpent" value="38057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -377,15 +377,15 @@
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/Landing_Page/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2527">
-          <caret line="712" column="7" lean-forward="false" selection-start-line="712" selection-start-column="7" selection-end-line="712" selection-end-column="7" />
+        <state relative-caret-position="549">
+          <caret line="600" column="27" lean-forward="false" selection-start-line="600" selection-start-column="27" selection-end-line="600" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#32955#32961#0#HTML" expanded="true" />
-            <element signature="e#33060#33068#0#HTML" expanded="true" />
-            <element signature="e#33141#33149#0#HTML" expanded="true" />
-            <element signature="e#33178#33186#0#HTML" expanded="true" />
-            <marker date="1528636883869" expanded="true" signature="27814:27945" ph="INSERT INTO adt_leads... " />
+            <element signature="e#32982#32988#0#HTML" expanded="true" />
+            <element signature="e#33087#33095#0#HTML" expanded="true" />
+            <element signature="e#33168#33176#0#HTML" expanded="true" />
+            <element signature="e#33205#33213#0#HTML" expanded="true" />
+            <marker date="1528636954991" expanded="true" signature="27814:27945" ph="INSERT INTO adt_leads... " />
           </folding>
         </state>
       </provider>
