@@ -1,7 +1,30 @@
 /* ----------- Section navbar ------------ */
+.televendas{
+	position: fixed;
+	z-index: 1050;
+	top: -10px;
+	background-color: #005dab;
+	width: 100%;
+}
+
+.televendas h4{
+	color: #fff;
+	padding: 5px 20px;
+	font-size: 16px;
+}
+
+
+.numero-agenda{
+	color: #fff;
+}
+
 .navbar-default{
 	background: #fdfeff !important;
 	box-shadow:  1px 2px 4px -1px #ccc;
+}
+
+.navbar.navbar-default.navbar-fixed-top{
+	margin-top: 39px;
 }
 
 .caption{
@@ -73,16 +96,21 @@ strong{
 }
 
 @media (max-width: 767px){
+	.televendas h4{
+		font-size: 14px;
+	}
 	.caption{
 		width: 60%;
 	}
 	.one{
 		width: 450px;
 		font-size: 36px;
+		background-color: rgba(255,255,255,.6);
 	}
 	.two{
 		font-size: 35px;
 		width: 500px;
+
 	}
 	.tree{
 		font-size: 18px;
@@ -93,6 +121,17 @@ strong{
 
 
 @media (max-width: 474px){
+	.televendas{
+		padding-top: 12px;
+	}
+	.televendas h4{
+		font-size: 16px;
+		padding: 0px 20px;
+		text-align: center;
+	}
+	.titulo-visita{
+		display: none;
+	}
 	.logo img{
 		width: 180px;
 	}
@@ -112,6 +151,8 @@ strong{
 	.two{
 		font-size: 20px;
 		width: 180px;
+		background-color: rgba(239, 237, 240,.8);
+		border-radius: 3px; 
 	}
 	.tree{
 		font-size: 14px;
@@ -192,10 +233,49 @@ strong{
 	  	transition: 0.4s; 
 	  }
 }
+/* ----------- icone whatsapp ------------ */
 
+.icone{
+	top: 450px;
+	position: fixed;
+	width: 70px;
+	z-index: 1030;
+
+	/*border-radius: 80px 100px 80px 30px;*/
+}
+
+.cont{
+	left: 15px;
+	top: 450px;
+	position: fixed;
+	z-index: 1030;
+}
+
+.cont a{
+	text-decoration: none;
+}
+
+.fone{
+	position: relative;
+	margin-left: 57px;
+	top: 24px;
+	background-color: #50b154;
+	padding: 5px;
+	border-radius: 5px;
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+
+
+	font-weight: 600;
+	color: #fff;
+
+	box-shadow: 2px 2px 3px #d7d7d7;
+	z-index: 1040;
+}
 /* ----------- Modal solicitacao ------------ */
 .header-modal{
-	background-color:rgba(30,144,255);
+	background-color: rgba(30,144,255);
 	padding: 10px;
 	color: #fff;
 	position: fixed;
@@ -205,7 +285,7 @@ strong{
 	border-radius: 5px 5px 0 0;
 	font-size: 16px;
 	font-weight: 600;
-	text-shadow: 2px 3px 3px #008B8B;
+	
 
 	-webkit-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
@@ -215,6 +295,21 @@ strong{
 
 .header-modal:hover{
 	background-color: rgba(0,255,255);
+	color: #000;
+
+}
+
+
+@media (max-width: 767px){
+	.header-modal{
+		font-size: 14px;
+		background-color:rgba(30,144,255,.5);
+		padding: 5px 15px;
+		color: #fff;
+		text-shadow: 2px 3px 2px #ccc;
+		top: 180px;
+
+	}
 }
 
 /* ----------- Section Serviços ------------ */
@@ -262,17 +357,55 @@ strong{
 	}
 }
 
-/* ----------- Section Equipamentos ------------ */
+@media (max-width: 474px){
+	.col-xs-8{
+		min-width: 90%;
+		margin-left: -15px;
+	}
+}
 
+/* ----------- Section Equipamentos ------------ */
+#equipamentos{
+	padding-top: 40px;
+}
 .espaco-chamadas{
 	margin-bottom: 100px;
 }
 .imagens-equipamentos{
 	margin-top: 50px;
 }
+.desc-produtos{
+	display: none;
+}
+
+@media(max-width: 767px){
+	.desc-produtos{
+		display: block;
+		box-shadow: none;
+		margin-top: 30px;
+	}
+	.item1, .item2, .item3, .item4, .item5, .item6{
+		display: none;
+	}
+
+	.item1.active, .item2.active, .item3.active, .item4.active, .item5.active, .item6.active{
+		display: block;
+
+	}
+	.item1 p, .item2 p, .item3 p, .item4 p, .item5 p, .item6 p{
+		color: #736969;
+		font-size: 17px;
+		padding: 7px;
+	}
+
+}
 
 
 /*------------- carousel -------------*/
+.box-carousel.col-lg-7{
+	margin-left: 70px;
+}
+
 .ibox-content {
     background-color: #fff;
     color: inherit;
@@ -280,6 +413,7 @@ strong{
     overflow: hidden;
     margin-top: 50px;
     box-shadow:  3px 3px 10px 3px #ccc;
+    height: 320px;
 }
 
 .ibox-content {
@@ -335,16 +469,34 @@ strong{
 	transition: 1s background ease-in-out;
 
 }
-
+@media (max-width: 1280px){
+	
+}
 @media (max-width: 767px){
 	.carousel-caption{
 		display: none;
+	}
+	.carousel-inner{
+		margin-left: 66px;
+		width: 80%;
+	}
+
+}
+
+@media(max-width: 474px){
+	.carousel-inner{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.ibox-content{
+		height: 255px;
 	}
 }
 
 /* ----------- Section Quem Somos ------------*/
 #quem-somos{
 	background: #F0FFF0;
+	padding-top: 40px;
 }
 .central{
 	margin-top: 50px;
