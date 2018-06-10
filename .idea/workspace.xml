@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fe82b9-0d1c-4641-b0d1-9d8cf8237819" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Landing_Page/index.php" afterPath="$PROJECT_DIR$/Landing_Page/index.php" />
+      <change beforePath="$PROJECT_DIR$/Landing_Page/css/voce_seguro.css" afterPath="$PROJECT_DIR$/Landing_Page/css/voce_seguro.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Landing_Page/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="549">
@@ -38,6 +38,16 @@
                 <element signature="e#33205#33213#0#HTML" expanded="true" />
                 <marker date="1528636954991" expanded="true" signature="27814:27945" ph="INSERT INTO adt_leads... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voce_seguro.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Landing_Page/css/voce_seguro.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="322" column="21" lean-forward="false" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,6 +103,7 @@
         <option value="$PROJECT_DIR$/sobre-nos.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Landing_Page/index.php" />
+        <option value="$PROJECT_DIR$/Landing_Page/css/voce_seguro.css" />
       </list>
     </option>
   </component>
@@ -137,6 +148,12 @@
               <item name="vocesegurosempre.pronorth.com.br" type="b2602c69:ProjectViewProjectNode" />
               <item name="vocesegurosempre.pronorth.com.br" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Landing_Page" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="vocesegurosempre.pronorth.com.br" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vocesegurosempre.pronorth.com.br" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Landing_Page" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="vocesegurosempre.pronorth.com.br" type="b2602c69:ProjectViewProjectNode" />
@@ -207,7 +224,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38057000" />
+    <option name="totallyTimeSpent" value="38743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -275,16 +292,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/obrigado.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1525801005870" expanded="true" signature="340:452" ph="INSERT INTO clientes... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/servicos.html" />
     <entry file="file://$PROJECT_DIR$/servicos/alarme-para-empresa.html" />
     <entry file="file://$PROJECT_DIR$/servicos/alarme-residencial.html" />
@@ -387,6 +394,14 @@
             <element signature="e#33205#33213#0#HTML" expanded="true" />
             <marker date="1528636954991" expanded="true" signature="27814:27945" ph="INSERT INTO adt_leads... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Landing_Page/css/voce_seguro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="322" column="21" lean-forward="false" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
