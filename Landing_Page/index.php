@@ -21,8 +21,8 @@
     <!-- Animation CSS -->
     <link href="css/animate.min.css" rel="stylesheet">
 
-     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-     
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
@@ -42,7 +42,10 @@
 </head>
 <body id="page-top">
 <div class="navbar-wrapper">
-<<<<<<< HEAD
+    <div class="televendas ">
+        <h4><span class="titulo-visita">Agende uma visita com nosso consultor de segurança | Pelo nosso whatsapp
+            </span><i class="fab fa-whatsapp "></i> <strong class="numero-agenda">(11) 4841-2677</strong></h4>
+    </div>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
@@ -60,34 +63,8 @@
                     <li><a class="page-scroll" href="#servicos">Serviços</a></li>
                     <li><a class="page-scroll" href="#equipamentos">Equipamentos</a></li>
                     <li><a class="page-scroll" href="#quem-somos">Quem somos</a></li>
-                    <li><a class="page-scroll" href="#contact">Contato</a></li>
+                    <li><a class="page-scroll" href="#scroll-form">Contato</a></li>
                 </ul>
-=======
-        <div class="televendas ">
-            <h4><span class="titulo-visita">Agende uma visita com nosso consultor de segurança | Pelo nosso whatsapp 
-            </span><i class="fab fa-whatsapp "></i> <strong class="numero-agenda">(11) 4841-2677</strong></h4>
-        </div>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    
-                    <a class="navbar-brand logo col-lg-12 col-sm-6" href="#"><img src="img/logo.jpg"></a>
-                </div>
-                <a class="toogle" href="#">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right menu">
-                        <li><a class="page-scroll" href="#page-top">Home</a></li>
-                        <li><a class="page-scroll" href="#servicos">Serviços</a></li>
-                        <li><a class="page-scroll" href="#equipamentos">Equipamentos</a></li>
-                        <li><a class="page-scroll" href="#quem-somos">Quem somos</a></li>
-                        <li><a class="page-scroll" href="#scroll-form">Contato</a></li>
-                    </ul>
-                </div>
->>>>>>> new-landpage
             </div>
         </div>
     </nav>
@@ -136,7 +113,7 @@
                     <span class="fone">Nos contate pelo whatsapp</span>
                 </a>
             </div>
-            
+
         </a>
         <a href="#scroll-form"><div class="header-modal wow zoomIn">Solicite um orçamento.</div></a>
         <!--
@@ -148,7 +125,7 @@
                     <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
                 </div>
             </div>
-             Set background for slide in css 
+             Set background for slide in css
             <div class="header-back two img-responsive"></div>
         </div>
         <div class="item">
@@ -178,9 +155,8 @@
             </div>
         </div>
         <div class="row">
-<<<<<<< HEAD
-            <div class="col-sm-4 col-xs-7 cards-servicos ">
-                <ul class="list-unstyled">
+            <div class=" cards-servicos">
+                <ul class="list-unstyled col-sm-4 col-xs-8">
                     <li class="pricing-title text-center header-cards-servicos">Residencial</li>
                     <li>
                         <a  href="#para-residencias" class="page-scroll">
@@ -194,8 +170,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-4 col-xs-7 cards-servicos">
-                <ul class="list-unstyled">
+            <div class=" cards-servicos">
+                <ul class="list-unstyled col-sm-4 col-xs-8 ">
                     <li class="pricing-title text-center header-cards-servicos">Empresarial</li>
                     <li>
                         <a  href="#para-empresas" class="page-scroll">
@@ -210,47 +186,10 @@
 
                 </ul>
             </div>
-            <div class="col-sm-4 col-xs-7 cards-servicos ">
-                <ul class="list-unstyled">
+            <div class=" cards-servicos ">
+                <ul class="list-unstyled col-sm-4 col-xs-8">
                     <li class="pricing-title text-center header-cards-servicos">Serviços</li>
                     <li>
-=======
-           <div class=" cards-servicos">
-               <ul class="list-unstyled col-sm-4 col-xs-8">
-                   <li class="pricing-title text-center header-cards-servicos">Residencial</li>
-                   <li>
-                        <a  href="#para-residencias" class="page-scroll">
-                            <img src="img/serv1.bmp" alt="Serviço Monitorado Residencial" class="image-cards-servicos img-responsive">
-                        </a>
-                   </li>
-                   <li class="bottom-cards-servicos">
-                       <p class="texto-cards-servicos">
-                           Não perca tempo e adquira agora mesmo a melhor performance em segurança para sua residência e família, o melhor equipamento…
-                       </p>
-                   </li>
-               </ul>
-           </div>
-           <div class=" cards-servicos">
-               <ul class="list-unstyled col-sm-4 col-xs-8 ">
-                   <li class="pricing-title text-center header-cards-servicos">Empresarial</li>
-                   <li>
-                        <a  href="#para-empresas" class="page-scroll">
-                            <img src="img/serv2.jpg" alt="Serviço Monitorado Empresarial" class="image-cards-servicos img-responsive">
-                        </a>
-                   </li>
-                   <li class="bottom-cards-servicos">
-                       <p class="texto-cards-servicos">
-                           Alarme Monitorado reduz em até 94% a chance de roubo no seu comércio. Temos o melhor custo benefício do mercado.
-                       </p>
-                   </li>
-
-               </ul>
-           </div>
-           <div class=" cards-servicos ">
-               <ul class="list-unstyled col-sm-4 col-xs-8">
-                   <li class="pricing-title text-center header-cards-servicos">Serviços</li>
-                   <li>
->>>>>>> new-landpage
                         <a href="#">
                             <img src="img/serv3.jpg" alt="Serviço Monitorado e Serviços" class="image-cards-servicos img-responsive">
                         </a>
@@ -274,71 +213,12 @@
         </div>
     </div>
 
-    
-    <div class="row">
-<<<<<<< HEAD
-        <div class="col-md-2 text-center ">
 
-        </div>
-        <div class="col-lg-9 col-md-12 wow pulse " >
-=======
+    <div class="row">
         <div class="col-lg-2 col-md-3 col-sm-3 col-xs-2 text-center ">
-            
+
         </div>
         <div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-8  wow pulse " >
-                   
-                        <div class="ibox-content ">
-                            <div class="carousel slide" id="carousel2">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel2"  class="active"></li>
-                                    <li data-slide-to="1" data-target="#carousel2"></li>
-                                    <li data-slide-to="2" data-target="#carousel2"></li>
-                                    <li data-slide-to="3" data-target="#carousel2"></li>
-                                    <li data-slide-to="4" data-target="#carousel2"></li>
-                                    <li data-slide-to="5" data-target="#carousel2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="item active ">
-                                        <img alt="image"  class="img-responsive" src="img/produto1.jpg">
-                                        <div class="carousel-caption">
-                                            <p>O SMA sem fio é um sensor de abertura que detecta a abertura de portas ou janelas. Também usado como transmissor para adaptações de sensores com fio. indicado para portas e janelas de madeira, aluminio ou vidro. Não indicado para portas ou janelas de ferro ou aço.</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img alt="image"  class="img-responsive"  src="img/produto2.jpg" >
-                                        <div class="carousel-caption">
-                                            <p>O sistema sem fio é um sistema integrado com caixa de proteção, transformador, bateria, sirene de 85dB, receptor com alcance aproximado de 60m e tecaldo. Obrigatório para clientes de venda ou comodato.</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img alt="image"  class="img-responsive" src="img/produto3.jpg">
-                                        <div class="carousel-caption">
-                                            <p>O SIV sem fio é um sensor de presença que detecta pessoas no ambiente. Indicado para a maioria dos ambientes com um ou mais pontos de invasão de do alcance. Não indicado para ambientes coom animais, vento, semiexternos ou externos.</p>
-                                        </div>
-                                    </div> 
-                                    <div class="item">
-                                        <img alt="image"  class="img-responsive" src="img/produto4.jpg">
-                                        <div class="carousel-caption">
-                                            <p>O SIV sem fio com camêra é um sensor de presença que detecta pessoas no ambiente e fotografa. Indicado para a maioria dos ambientes com um ou mais pontos de invasão dentro do alcance. Não indicado para ambientes com animais, vento, semiexternos ou externos.</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img alt="image"  class="img-responsive" src="img/produto05.jpg">
-                                        <div class="carousel-caption">
-                                            <p>o SMA de porta retratil sem fio é um sensor de abertura que detecta abertura de portas na vertical como portas de enrolar (aço) ou basculantes.</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img alt="image"  class="img-responsive" src="img/produto06.jpg">
-                                        <div class="carousel-caption">
-                                            <p>O controle remoto é usado para arme, desarme, arme percial e pedido de ajuda. Indicado conforme o número de usuários</p>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                
-                            </div>
->>>>>>> new-landpage
 
             <div class="ibox-content ">
                 <div class="carousel slide" id="carousel2">
@@ -357,8 +237,8 @@
                                 <p>O SMA sem fio é um sensor de abertura que detecta a abertura de portas ou janelas. Também usado como transmissor para adaptações de sensores com fio. indicado para portas e janelas de madeira, aluminio ou vidro. Não indicado para portas ou janelas de ferro ou aço.</p>
                             </div>
                         </div>
-                        <div class="item ">
-                            <img alt="image"  class="img-responsive"  src="img/produto2.jpg" width="200px">
+                        <div class="item">
+                            <img alt="image"  class="img-responsive"  src="img/produto2.jpg" >
                             <div class="carousel-caption">
                                 <p>O sistema sem fio é um sistema integrado com caixa de proteção, transformador, bateria, sirene de 85dB, receptor com alcance aproximado de 60m e tecaldo. Obrigatório para clientes de venda ou comodato.</p>
                             </div>
@@ -387,102 +267,74 @@
                                 <p>O controle remoto é usado para arme, desarme, arme percial e pedido de ajuda. Indicado conforme o número de usuários</p>
                             </div>
                         </div>
-                    </div>
-<<<<<<< HEAD
 
-=======
-                </div>
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="desc-produtos">
-                            <div class="item1 active">
-                                <p>O SMA sem fio é um sensor de abertura que detecta a abertura de portas ou janelas. Também usado como transmissor para adaptações de sensores com fio. indicado para portas e janelas de madeira, aluminio ou vidro. Não indicado para portas ou janelas de ferro ou aço.</p>
-                            </div>
-                        </div>
-                        <div class="desc-produtos">
-                            <div class="item2">
-                                <p>O sistema sem fio é um sistema integrado com caixa de proteção, transformador, bateria, sirene de 85dB, receptor com alcance aproximado de 60m e tecaldo. Obrigatório para clientes de venda ou comodato.</p>
-                            </div>
-                        </div>
-                        <div class="desc-produtos">
-                            <div class="item3">
-                                <p>O SIV sem fio é um sensor de presença que detecta pessoas no ambiente. Indicado para a maioria dos ambientes com um ou mais pontos de invasão de do alcance. Não indicado para ambientes coom animais, vento, semiexternos ou externos.</p>
-                            </div>
-                        </div>
-                        <div class="desc-produtos">
-                            <div class="item4">
-                                <p>O SIV sem fio com camêra é um sensor de presença que detecta pessoas no ambiente e fotografa. Indicado para a maioria dos ambientes com um ou mais pontos de invasão dentro do alcance. Não indicado para ambientes com animais, vento, semiexternos ou externos.</p>
-                            </div>
-                        </div>
-                        <div class="desc-produtos">
-                            <div class="item5">
-                                 <p>o SMA de porta retratil sem fio é um sensor de abertura que detecta abertura de portas na vertical como portas de enrolar (aço) ou basculantes.</p>
-                            </div>
-                        </div>
-                        <div class="desc-produtos">
-                            <div class="item6">
-                                <p>O controle remoto é usado para arme, desarme, arme percial e pedido de ajuda. Indicado conforme o número de usuários</p>
-                            </div>
-                        </div>
                     </div>
+
                 </div>
-                
-                <div class="row">
-                    <ul class="content-mini col-lg-11 col-lg-offset-1">
-                        <li data-slide-to="0" data-target="#carousel2" class="mini-produto">
-                            <img src="img/produto1.jpg" alt="thumb-produto" class="show-desc-produtos" id="item1">
-                        </li>
-                        <li data-slide-to="1" data-target="#carousel2" class="mini-produto">
-                            <img src="img/produto2.jpg" alt="thumb-produto" class="show-desc-produtos" id="item2">
-                        </li>
-                        <li data-slide-to="2" data-target="#carousel2" class="mini-produto">
-                            <img src="img/produto3.jpg" alt="thumb-produto" class="show-desc-produtos" id="item3">
-                        </li>
-                        <li data-slide-to="3" data-target="#carousel2" class="mini-produto">
-                            <img src="img/produto4.jpg" alt="thumb-produto" class="show-desc-produtos" id="item4">
-                        </li>
-                        <li data-slide-to="4" data-target="#carousel2" class="mini-produto">
-                            <img src="img/produto05.jpg" alt="thumb-produto" class="show-desc-produtos" id="item5">
-                        </li>
-                        <li data-slide-to="5" data-target="#carousel2" class="mini-produto">
-                            <img src="img/produto06.jpg" alt="thumb-produto" class="show-desc-produtos" id="item6">
-                        </li>
-                    </ul>
->>>>>>> new-landpage
-                </div>
+
             </div>
-<<<<<<< HEAD
 
-=======
-        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-2 text-center ">
->>>>>>> new-landpage
         </div>
     </div>
     <div class="row">
+        <div class="col-md-10">
+            <div class="desc-produtos">
+                <div class="item1 active">
+                    <p>O SMA sem fio é um sensor de abertura que detecta a abertura de portas ou janelas. Também usado como transmissor para adaptações de sensores com fio. indicado para portas e janelas de madeira, aluminio ou vidro. Não indicado para portas ou janelas de ferro ou aço.</p>
+                </div>
+            </div>
+            <div class="desc-produtos">
+                <div class="item2">
+                    <p>O sistema sem fio é um sistema integrado com caixa de proteção, transformador, bateria, sirene de 85dB, receptor com alcance aproximado de 60m e tecaldo. Obrigatório para clientes de venda ou comodato.</p>
+                </div>
+            </div>
+            <div class="desc-produtos">
+                <div class="item3">
+                    <p>O SIV sem fio é um sensor de presença que detecta pessoas no ambiente. Indicado para a maioria dos ambientes com um ou mais pontos de invasão de do alcance. Não indicado para ambientes coom animais, vento, semiexternos ou externos.</p>
+                </div>
+            </div>
+            <div class="desc-produtos">
+                <div class="item4">
+                    <p>O SIV sem fio com camêra é um sensor de presença que detecta pessoas no ambiente e fotografa. Indicado para a maioria dos ambientes com um ou mais pontos de invasão dentro do alcance. Não indicado para ambientes com animais, vento, semiexternos ou externos.</p>
+                </div>
+            </div>
+            <div class="desc-produtos">
+                <div class="item5">
+                    <p>o SMA de porta retratil sem fio é um sensor de abertura que detecta abertura de portas na vertical como portas de enrolar (aço) ou basculantes.</p>
+                </div>
+            </div>
+            <div class="desc-produtos">
+                <div class="item6">
+                    <p>O controle remoto é usado para arme, desarme, arme percial e pedido de ajuda. Indicado conforme o número de usuários</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
         <ul class="content-mini col-lg-11 col-lg-offset-1">
             <li data-slide-to="0" data-target="#carousel2" class="mini-produto">
-                <img src="img/produto1.jpg" alt="thumb-produto" class="">
+                <img src="img/produto1.jpg" alt="thumb-produto" class="show-desc-produtos" id="item1">
             </li>
             <li data-slide-to="1" data-target="#carousel2" class="mini-produto">
-                <img src="img/produto2.jpg" alt="thumb-produto" class="">
+                <img src="img/produto2.jpg" alt="thumb-produto" class="show-desc-produtos" id="item2">
             </li>
             <li data-slide-to="2" data-target="#carousel2" class="mini-produto">
-                <img src="img/produto3.jpg" alt="thumb-produto" class="">
+                <img src="img/produto3.jpg" alt="thumb-produto" class="show-desc-produtos" id="item3">
             </li>
             <li data-slide-to="3" data-target="#carousel2" class="mini-produto">
-                <img src="img/produto4.jpg" alt="thumb-produto" class="">
+                <img src="img/produto4.jpg" alt="thumb-produto" class="show-desc-produtos" id="item4">
             </li>
             <li data-slide-to="4" data-target="#carousel2" class="mini-produto">
-                <img src="img/produto05.jpg" alt="thumb-produto" class="">
+                <img src="img/produto05.jpg" alt="thumb-produto" class="show-desc-produtos" id="item5">
             </li>
             <li data-slide-to="5" data-target="#carousel2" class="mini-produto">
-                <img src="img/produto06.jpg" alt="thumb-produto" class="">
+                <img src="img/produto06.jpg" alt="thumb-produto" class="show-desc-produtos" id="item6">
             </li>
         </ul>
     </div>
-
     </div>
-    <div class="col-md-2 text-center ">
+    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-2 text-center ">
     </div>
     <!-- Para residências -->
     <div class="row">
@@ -795,15 +647,19 @@
         });
 
         $('.slick_demo_2').slick({
-                dots: true
+            dots: true
         });
     });
+
     $(function(){
         $('.toogle').click(function(){
             $('.toogle').toggleClass('ativo');
             $('.collapse').toggleClass('in');
         });//Função ativa o menu responsivo
+
+
     });
+
     $(function(){
         $('section, footer, .page-scroll').click(function(){
             if($('.toogle.ativo') && $('.collapse.in')){
@@ -812,6 +668,7 @@
             }
         });
     });//Função fecha menu com click em qualquer parte do site
+
     $(function(){
         $('#open').click(function(){
             document.getElementById("nome").select();
