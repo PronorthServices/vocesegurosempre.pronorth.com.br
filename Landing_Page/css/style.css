@@ -13,6 +13,7 @@ body{
   margin-top: 39px;
   
 }
+
 span.navy {
   color: #005dab;
 }
@@ -170,11 +171,15 @@ h1 {
 
 @media (max-width: 768px) {
   .header-back img{
-    width: 160vw;
+    width: 120vw;
+    
      
   }
   .header-back {
     margin-top: 75px;
+    width: 100vw;
+    margin-left: -66px;
+
 
   }
 
@@ -187,7 +192,8 @@ h1 {
   
   .header-back {
     margin-top: 75px;
-    background-position-x: -419px;
+    background-position-x: -299px;
+    margin-left: 0px;
 
   }
 }
@@ -321,6 +327,12 @@ h1 {
 .services {
   padding-top: 60px;
 }
+
+@media(max-width: 474px){
+  .services {
+    padding-top: 120px;
+  }
+}
 .services h2 {
   font-size: 20px;
   letter-spacing: -1px;
@@ -328,7 +340,7 @@ h1 {
   text-transform: uppercase;
 }
 .features-block {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 100px;
 }
 .features-text {

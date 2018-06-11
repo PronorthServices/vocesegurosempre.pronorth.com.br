@@ -278,7 +278,7 @@
     </div>
     <div class="row">
         <div class="col-md-10">
-            <div class="desc-produtos">
+            <div class="desc-produtos wow fadeInLeft">
                 <div class="item1 active">
                     <p>O SMA sem fio é um sensor de abertura que detecta a abertura de portas ou janelas. Também usado como transmissor para adaptações de sensores com fio. indicado para portas e janelas de madeira, aluminio ou vidro. Não indicado para portas ou janelas de ferro ou aço.</p>
                 </div>
