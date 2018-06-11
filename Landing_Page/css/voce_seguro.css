@@ -9,10 +9,9 @@
 
 .televendas h4{
 	color: #fff;
-	padding: 5px 20px;
+	padding: 7px 20px;
 	font-size: 16px;
 }
-
 
 .numero-agenda{
 	color: #fff;
@@ -273,6 +272,16 @@ strong{
 	box-shadow: 2px 2px 3px #d7d7d7;
 	z-index: 1040;
 }
+
+@media(max-width: 767px){
+	.fone{
+		display: none;
+	}
+	.icone{
+		margin-left: -10px;
+		bottom: -2px;
+	}
+}
 /* ----------- Modal solicitacao ------------ */
 .header-modal{
 	background-color: rgba(30,144,255);
@@ -316,11 +325,11 @@ strong{
 #servicos{
 	background: #F0FFF0;
 	padding-bottom: 50px;
+	padding-top: 130px;
 }
 .title-cards-servicos{
 	font-weight: 500;
 	margin-bottom: 50px;
-	margin-top: 50px;
 }
 
 .header-cards-servicos{
@@ -359,6 +368,9 @@ strong{
 }
 
 @media (max-width: 474px){
+	.title-cards-servicos{
+		margin-top: 10px;
+	}
 	.col-xs-8{
 		min-width: 90%;
 		margin-left: -15px;
@@ -395,7 +407,7 @@ strong{
 	}
 	.item1 p, .item2 p, .item3 p, .item4 p, .item5 p, .item6 p{
 		color: #736969;
-		font-size: 17px;
+		font-size: 14px;
 		padding: 7px;
 	}
 
@@ -489,6 +501,10 @@ strong{
 		margin-left: 0px;
 		width: 100%;
 	}
+	.mini-produto img{
+		max-width: 40px;
+		flex-wrap: all;
+	}
 	.ibox-content{
 		height: 255px;
 	}
@@ -545,6 +561,10 @@ strong{
  	font-size: 16px;
  	color: #fff;
  	letter-spacing: 2px;
+ }
+
+ .ibox-content.comentarios{
+ 	height: 190px;
  }
 
  .slick-prev{
