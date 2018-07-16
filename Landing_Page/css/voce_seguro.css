@@ -12,6 +12,15 @@
 	padding: 7px 20px;
 	font-size: 16px;
 }
+.link-header{
+	color: #fff;
+	text-decoration: none;
+}
+
+.link-header:hover{
+	color: #9acfea;
+	text-decoration: none;
+}
 
 .numero-agenda{
 	color: #fff;
@@ -38,7 +47,7 @@ strong{
 }
 
 .one,.two,.tree{
-	margin-bottom: 45px;
+	margin-bottom: 34px;
 }
 
 .one{
@@ -67,8 +76,25 @@ strong{
 	border-radius: 5px;
 }
 
+.icon-services{
+	font-size: 36px;
+	color: #000;
+}
+
+.card-text{
+	color: dimgrey;
+}
+.card-title{
+	color: #005dab;
+	font-weight: bold;
+}
+
 .logo img{
 	width: 250px;
+}
+
+.gray-section{
+	margin-top: 0px;
 }
 @media (max-width: 991px){
 	.caption{
@@ -77,12 +103,13 @@ strong{
 	.one{
 		width: 470px;
 		font-size: 38px;
+		background-color: rgba(255,255,255,.6);
 	}
 	.two{
-		font-size: 35px;
+		font-size: 30px;
 	}
 	.tree{
-		margin-top: 70px;
+		margin-top: 50px;
 	}
 
 
@@ -114,8 +141,14 @@ strong{
 	.tree{
 		font-size: 18px;
 		width: 425px;
-		margin-top: 80px;
+		margin-top: 50px;
 	}
+
+
+	.card{
+		margin: 65px 40px;
+	}
+
 }
 
 
@@ -136,11 +169,10 @@ strong{
 	}
 
 	.caption{
-		background: ;
 		width: 40%;
 	}
 	.one,.two,.tree{
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 
 	.one{
@@ -156,7 +188,7 @@ strong{
 	.tree{
 		font-size: 14px;
 		width: 200px;
-		margin-top: 40px;
+		margin-top: 25px;
 	}
 }
 
@@ -306,6 +338,13 @@ strong{
 	background-color: rgba(0,255,255);
 	color: #000;
 
+}
+
+.testimonials {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #31b0d5;
+	background-image: url('../img/shattered.png');
 }
 
 

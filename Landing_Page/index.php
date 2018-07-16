@@ -43,14 +43,15 @@
 <body id="page-top">
 <div class="navbar-wrapper">
     <div class="televendas ">
-        <h4><span class="titulo-visita">Agende uma visita com nosso consultor de segurança | Pelo nosso whatsapp
+        <h4><span class="titulo-visita">
+                <a href="#scroll-form" class="link-header">Agende uma visita com nosso consultor de segurança</a> | Pelo nosso whatsapp
             </span><i class="fab fa-whatsapp "></i> <strong class="numero-agenda">(11) 4841-2677</strong></h4>
     </div>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
 
-                <a class="navbar-brand logo col-lg-12 col-sm-6" href="#"><img src="img/logo.jpg"></a>
+                <a class="navbar-brand logo col-lg-12 col-sm-6" href="#"><img src="img/logo.jpeg"></a>
             </div>
             <a class="toogle" href="#">
                 <span></span>
@@ -60,7 +61,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right menu">
                     <li><a class="page-scroll" href="#page-top">Home</a></li>
-                    <li><a class="page-scroll" href="#servicos">Serviços</a></li>
+                    <li><a class="page-scroll" href="#nossos-servicos">Serviços</a></li>
                     <li><a class="page-scroll" href="#equipamentos">Equipamentos</a></li>
                     <li><a class="page-scroll" href="#quem-somos">Quem somos</a></li>
                     <li><a class="page-scroll" href="#scroll-form">Contato</a></li>
@@ -100,7 +101,7 @@
                     <p class="one">
                         Proteja <strong>tudo</strong> que é mais <strong>importante</strong> para <strong>Você</strong>
                     </p>
-                    <h2 class="two">Por apenas R$ 3,50 por dia*</h2>
+                    <h2 class="two">A partir de R$2,10 nos 5 primeiros meses*</h2>
                     <h3 class="tree">Alarme monitorado 24 Horas / 7 dias por semana</h3>
                 </div>
             </div>
@@ -146,7 +147,7 @@
     </a>-->
 </div>
 
-<section id="servicos" class="services">
+<section id="nossos-servicos" class="services">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -190,7 +191,7 @@
                 <ul class="list-unstyled col-sm-4 col-xs-8">
                     <li class="pricing-title text-center header-cards-servicos">Serviços</li>
                     <li>
-                        <a href="#">
+                        <a href="#section-servicos">
                             <img src="img/serv3.jpg" alt="Serviço Monitorado e Serviços" class="image-cards-servicos img-responsive">
                         </a>
                     </li>
@@ -347,7 +348,7 @@
 
     <div class="row features-block">
         <div class="col-lg-6 imagens-equipamentos content-img-servicos wow fadeInLeft">
-            <img src="img/residencial.jpg" alt="dashboard" class="img-responsive pull-right ">
+            <img src="img/web.jpg" alt="dashboard" class="img-responsive pull-right ">
             <small>Solicite uma visita de um Consultor de Segurança.</small>
         </div>
         <div class="col-lg-6 features-text wow pulse">
@@ -369,17 +370,98 @@
 
     <div class="row features-block">
         <div class="col-lg-6 imagens-equipamentos  content-img-servicos wow pulse">
-            <img src="img/empresa.jpg" alt="Empresarial" class="img-responsive pull-right">
+            <img src="img/empresa.jpg" height="430" alt="Empresarial" class="img-responsive pull-right">
             <small>Solicite uma visita de um Consultor de Segurança.</small>
         </div>
         <div  class="col-lg-6 features-text wow fadeInUp ">
             <h2>Para Empresas</h2>
-            <p>Consulte um dos nossos especialistas em segurança para obter um diagnóstico em possíveis áreas de risco/invasões em seu patrimônio.</p>
-            <p>Para garantir cuidados extras a sua empresa, a ADT oferece um Plano de alarme empresarial que disponibiliza vantagens exclusivas quando você mais precisa. Com ADT Proteção Garantida, você dispõe de reparos aos danos causados por invasão ou tentativa de invasão. Caso seja impossível realizar os reparos imediatamente, um vigilante permanecerá no local até que os ajustem sejam finalizados. Além disso, o serviço também dá o direito de uma cobertura de até R$ 7.500,00 ou R$ 15.000,00 conforme o plano escolhido para mercadorias ou equipamentos roubados.</p>
+            <p>Consulte um dos nossos especialistas em segurança para obter um diagnóstico em possíveis áreas de
+                risco/invasões em seu patrimônio.
+            </p>
+            <p>
+                Para garantir cuidados extras  a sua empresa, a ADT oferece um Plano de alarme empresarial onde as
+                coberturas estão condicionadas ao recebimento de um sinal do equipamento de alarme pela
+                Central de Monitoramento ADT indicando uma tentativa de invasão ou pedido de ajuda do local.
+                Com ADT Proteção Garantida, você dispõe de reparos aos danos causados por invasão ou tentativa de
+                invasão.
+                Caso não seja possível realizar os reparos imediatos, um vigilante permanecerá no local até 48 horas. Além disso, o serviço também dá o direito de uma cobertura de até R$ 7.500,00 ou R$ 15.000,00 conforme o plano escolhido para mercadorias ou equipamentos roubados.”
+            </p>
         </div>
     </div>
     </div>
+</section>
 
+<div class="row" id="section-servicos"></div>
+<br><br><br> <br>
+<section  class="navy-section testimonials" style="margin-top: 0">
+    <div class="container" id="">
+        <div class="navy-line"></div>
+        <h1 style="text-align: center; color: #505050;">Serviços</h1>
+        <h5 class="text-center" style="color: #676e78;">Como funciona o alarme monitorado ADT:</h5>
+        <p></p>
+        <div class="row col-sm-12">
+
+
+            <div class="text-center">
+                <!--Instalação-->
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center ">
+                    <div class="card">
+                        <div class="icon-services">
+                            <i class="fa fa-home"></i>
+                            <i class="fa fa-building"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Instalação</h5>
+                            <p class="card-text"> Instalamos sensores em pontos estratégicos da sua residência ou
+                                comércio..</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Controle-->
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <div class="card">
+                        <div class="icon-services">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Controle</h5>
+                            <p class="card-text"> Por meio do controle remoto, você pode pedir ajuda em situações
+                                de perigo, inclusive quando está entrando ou saindo do local.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <div class="card">
+                        <div class="icon-services">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Monitoramento</h5>
+                            <p class="card-text"> Por meio do controle remoto, você pode pedir ajuda em situações
+                                de perigo, inclusive quando está entrando ou saindo do local.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-sm-6 text-center">
+                    <div class="card">
+                        <div class="icon-services">
+                            <img src="img/policer.png" width="50px" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Emergência </h5>
+                            <p class="card-text"> Se necessário alertamos a polícia e se for princípio de incêndio
+                                os Bombeiros.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="quem-somos" class="gray-section team">
@@ -434,63 +516,7 @@
         </div>
     </div>
 </section>
-<section id="depoimentos" class="navy-section testimonials" style="margin-top: 0">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <i class="fa fa-comment big-icon"></i>
-                <h1>
-                    O que dizem nossos clientes
-                </h1>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="ibox">
-                            <div class="slick_demo_1">
-                                <div>
-                                    <div class="ibox-content comentarios ">
-                                        <i>
-                                            "Recentemente contratei os serviços da ADT para projeto e instalação de câmeras de segurança, alarme e cerca elétrica em minha empresa em Sorocaba.
-                                            Minhas câmeras me dão uma resolução ótima, que me surpreenderam muito!
-
-                                        </i>
-                                        <br>
-                                        <small>
-                                            <strong class="destaque">16.04.2018 - Antonio Sanchez</strong>
-                                        </small>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="ibox-content comentarios ">
-                                        <i>
-                                            "O sistema funciona muito bem, é moderno e tecnologia super avançada. O aplicativo que uso para acessar as informações e imagens é muito bom e fácil de usar, super recomendo ADT"
-                                        </i>
-                                        <br>
-                                        <small>
-                                            <strong class="destaque">12.02.2018 - Andy Smith</strong>
-                                        </small>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="ibox-content comentarios ">
-                                        <i>
-                                            A ADT, empresa no segmento de segurança eletrônica, nos atende com responsabilidade, agilidade e respeito.Recomendamos sempre.Pontualidade e qualidade na execução dos serviços.”
-
-                                        </i>
-                                        <br>
-                                        <small>
-                                            <strong class="destaque">22.05.2018 - Rogerio Borges – Diretor</strong>
-                                        </small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <section id="contact" class="gray-section contact">
     <div class="container">
         <div class="row m-b-lg">
@@ -621,7 +647,14 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p><strong>&copy; Você seguro sempre - Todos Direitos Reservados 2018 .</strong><br/>Representante da ADT, empresa l&iacute;der mundial no segmento de alarmes monitorados, presente em mais de 54 pa&iacute;ses, com o melhor custo benef&iacute;cio do mercado.</p>
+                <p><strong>&copy; Você seguro sempre - Todos Direitos Reservados 2018 .</strong><br/>“Representante da ADT, o alarme monitorado mais utilizado no mundo, com o melhor custo benefício do mercado.” </p>
+            </div>
+        </div>
+        <div class="">
+            <div class="col-lg-12 text-center m-t-lg m-b-lg">
+                <p>
+                    * Pacote Básico: A partir de R$62,50 nos 5 primeiros meses. Equipamentos em comodato: 1 painel de alarme sem fio (com teclado, visor, bateria, receptor, sirene integrados com possibilidade de inclusão do módulo ETH), 1 sensor de presença, 1 sensor de abertura e 1 controle remoto com botão de ajuda. Serviços inclusos: monitoramento, checkup, relatório mensal e manutenção do alarme. Promoção válida somente para compras no Cartão de Crédito ou Débito Automático. Valor promocional com 50% de desconto válido durante os 5 primeiros meses, após este período, o valor será integral. Contrato possui fidelidade de 36 meses e está sujeito a análise de crédito.”
+                </p>
             </div>
         </div>
     </div>
