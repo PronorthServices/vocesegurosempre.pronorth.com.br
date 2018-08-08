@@ -104,6 +104,35 @@
                     <h2 class="two">A partir de R$2,10 nos 5 primeiros meses*</h2>
                     <h3 class="tree">Alarme monitorado 24 Horas / 7 dias por semana</h3>
                 </div>
+                <div class="box-form" id="box-form">
+                    <div class="box-form-title">
+                        <h3>ligamos para você!</h3>
+                        <span>Receba o contato dos nossos consultores de segurança</span>
+                    </div>
+                    <div class="box-form-body col-md-12">
+                        <div class=" ">
+                            <br>
+                            <div id="formulario" class="form-group">
+                                <form action="#" method="post">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input id="nome" type="text" class="form-control" name="nome" placeholder="Nome">
+                                    </div>
+                                    <div class="input-group ">
+                                        <span class="input-group-addon"><i class="glyphicon
+                                            glyphicon-earphone"></i></span>
+                                        <input id="telefone" type="text" class="form-control" name="telefone"
+                                               placeholder="(xx) xxxx-xxxx">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <button type="submit" class="btn btn-primary bt">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </div>
@@ -116,7 +145,6 @@
             </div>
 
         </a>
-        <a href="#scroll-form"><div class="header-modal wow zoomIn">Solicite um orçamento.</div></a>
         <!--
         <div class="item">
             <div class="container">
@@ -147,9 +175,9 @@
     </a>-->
 </div>
 
-<section id="nossos-servicos" class="services">
+<section  class="services">
     <div class="container">
-        <div class="row">
+        <div class="row" id="nossos-servicos">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
                 <h1 class="title-cards-servicos">Nossos Serviços<br/>
@@ -359,6 +387,13 @@
                 Em sua casa de campo temos opções para que em sua ausência você possa monitorar e até visualizar seu imóvel ao vivo.</p>
         </div>
     </div>
+
+    <div class="row">
+        <div class="form-group text-center">
+            <a href="#box-form" style="width: 40%" type="submit" class="page-scroll btn btn-primary
+            bt-middle">Contrate Agora</a>
+        </div>
+    </div>
     <!-- Para Empresas -->
     <div class="row">
         <div  id="para-empresas" class="col-lg-12 text-center">
@@ -386,6 +421,15 @@
                 invasão.
                 Caso não seja possível realizar os reparos imediatos, um vigilante permanecerá no local até 48 horas. Além disso, o serviço também dá o direito de uma cobertura de até R$ 7.500,00 ou R$ 15.000,00 conforme o plano escolhido para mercadorias ou equipamentos roubados.”
             </p>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="form-group text-center">
+            <a href="#box-form" style="width: 40%" type="submit" class="page-scroll btn btn-primary
+            bt-middle">Contrate Agora</a>
         </div>
     </div>
     </div>
@@ -592,38 +636,18 @@
                 <br>
                 <div id="formulario" class="form-group">
                     <form action="#" method="post">
-                        <div class="input-group col-md-8">
+                        <div class="input-group col-md-12">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                             <input id="nome" type="text" class="form-control" name="nome" placeholder="Nome">
                         </div>
                         <br>
-                        <div class="input-group col-md-6">
+                        <div class="input-group col-md-12">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
                             <input id="telefone" type="text" class="form-control" name="telefone" placeholder="(xx) xxxx-xxxx">
                         </div>
-                        <br>
-                        <div class="input-group col-md-7">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                            <input id="email" type="email" class="form-control" name="email" placeholder="email@.com.br">
-                        </div>
-                        <br>
-                        <div class="tipo-servico">
-                            <label for="sel1">Selecione o tipo de serviço</label>
-                            <select name="servico" class="form-control" id="tp-servico">
-                                <option value="residencial">Para Residência</option>
-                                <option value="empresarial">Para Empresa</option>
-                            </select>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                            <label for="mensagem">Mensagem:</label>
-                            <textarea class="form-control" rows="5" name="mensagem" id="mensagem"></textarea>
-                        </div>
-
-                        <div class="form-group">
+                        <div class="form-group col-md-12">
                             <button type="submit" class="btn btn-primary bt">Enviar</button>
                         </div>
-
                     </form>
                 </div>
             </div>
